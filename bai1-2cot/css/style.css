@@ -1,0 +1,149 @@
+body{
+	width: 1000px;
+	margin: auto;
+	background: #e9eaea;
+}
+
+a:link{
+	color: black;
+}
+
+#header{
+	background: white;
+}
+
+#header #top{
+	padding: 20px;
+}
+
+#header #top a{
+	margin:20px;
+
+}
+
+#header #top li{
+	float: right;
+	margin: 10px;
+	list-style: none;
+
+}
+
+#header #bottom{
+	padding: 5px;
+}
+
+#header #bottom a{
+	margin: 2px;
+	text-decoration: none;
+	line-height: 80px;
+	font-size: 18px;
+}
+
+#header #bottom li{
+	float: right;
+	padding-right: 5px;
+	list-style: none;
+
+}
+
+#save ul{
+	
+	list-style: none;
+}
+
+#save ul li{
+	float: left;
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+
+#main{
+	width: 1000px;
+	float: left;
+	
+
+}
+
+#main #left{
+	margin-top: 20px;
+	width: 625px;
+	float: left;
+	background: white;
+}
+#main #left h2{
+	border-bottom:3px solid black;
+}
+
+
+#main #right{
+	width: 325px;
+	float: right;
+}
+
+#main #right #fee{
+	width: 325px;
+	height: 220px;
+	background: white;
+}
+
+#main #right #fee h2{
+	border-bottom: 3px solid black;
+	padding-top: 20px;
+}
+
+#main #right #fee .center{
+	text-align: center;
+	font-size: 30px;
+	color: orange ;
+	padding-top: 35px;
+	font-family: fantasy;
+}
+
+#main #right #fee .center2{
+	text-align: center;
+	padding-top: 10px;
+}
+
+#main #right #teacher{
+	width: 325px;
+	height: auto;
+	background: white;
+	margin-top: 20px;
+
+}
+
+#main #right #teacher h2{
+	border-bottom: 3px solid black;
+}
+
+#main #right #teacher img{
+	width: 80px;
+
+}
+
+#main #right #teacher h4{
+	margin-right: 100px;
+	float: right;
+}
+
+
+#footer{
+	width: 1000px; 
+	height: 350px;
+	background: #222428;
+	clear: left;
+	list-style: none;
+}
+
+#footer li{
+	color: white;
+
+}
+
+#footer #d1{
+	width: 20%;
+	float: left;
+	margin: 2%;
+
+}
