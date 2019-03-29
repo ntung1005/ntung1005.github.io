@@ -1,7 +1,7 @@
 body{
 	width: 1000px;
-	margin: auto;
-	margin-top: 50px;
+	margin: 50px auto;
+
 }
 
 #col{
@@ -81,11 +81,14 @@ h1{
 #bai4{
 	height: 20px;
 	float: right;
+	width: 1000px;
+	margin: 20px auto;
 
 }
 
 #creat{
-	animation: fade 2s ease-in-out;
+	animation: fade 4s ease-in-out;
+	float: right;
 }
 
 #bai4 #creat h2{
@@ -94,9 +97,13 @@ h1{
 }
 
 @keyframes fade{
-	0%{ opacity: 1 }
+	0%{ opacity: 0 }
+	10%{opacity: 0.05}
+	30%{ opacity: 1 }
 
-	100%{ opacity: 0 ; color: white; padding-right: 600px; }
+
+	100%{ opacity: 0 ; color: white; padding-right: 500px; }
 	
 
 }
+
