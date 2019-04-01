@@ -1,0 +1,269 @@
+body{
+	font-family: tahoma;
+	font-weight: 18px;
+	margin:0px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#menu{
+	width: 100%;
+	height: 110px;
+	background: #232f3e;
+	
+}
+
+#top{
+	height: 50px;
+	padding:10px 0px 0px 30px;
+}
+
+#top #logo{
+	width: 100px;
+	float: left;
+}
+
+#top #logo img{
+	width: 100%;
+}
+
+#search{
+	width: 60%;
+	height: 35px;
+	background: white;
+	border-radius: 5px;
+	float: left;
+	margin-left: 80px;
+}
+
+#search1{
+	width: 45px;
+	height: 35px;
+	background: #f3f3f3;
+	float: left;
+	padding: 10px 0px 0px 10px;
+}
+
+#search2{
+	width: 80%;
+	height: 35px;
+	background: white;
+	float: left;
+
+}
+
+#search2 input{
+	width: 100%;
+	height: 80%;
+	border: none;
+	margin-top: 5px;
+	font-size: 16px;
+
+}
+
+#search3{
+	width: 45px;
+	height: 35px;
+	float: right;
+	background: orange ;
+	border-radius: 5px;
+}
+
+#search3 img{
+	height: 75%;
+	margin:5px 0px 0px 7px;
+}
+
+#slogan{
+	width: 360px;
+	float: right;
+}
+
+#slogan img{
+	width: 100%;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+#all{
+	width: 120px;
+	border: 1px solid grey;
+	position: absolute;
+	top: 40px;
+	background: white;
+	display: none;
+}
+
+#all ul{
+	padding-left: 0px;
+}
+
+a{
+	color: black;
+}
+
+#search1 li:hover>#all{
+	display: block;
+}
+
+#search ul li:hover{
+	margin-left: 10px;
+	background: grey;
+}
+
+#search ul li a:hover{
+	color: blue;
+}
+
+
+#bottom{
+	height: 60px;
+
+}
+
+#bottom #vn{
+	margin:10px;
+	float: left;
+	width: 100px;
+	height: 50px;
+}
+
+#bottom #vn img{
+	height: 100%;
+}
+
+#menu1{
+	float: left;
+	margin: 15px 0px 0px 75px;
+	font-size: 14px;
+}
+
+#menu1 ul{
+
+}
+
+#menu1 ul li{
+	display: inline-block;
+
+	margin-right: 15px;
+}
+
+#menu1 ul li a{
+	color: white;
+}
+
+#menu11{
+	position: absolute;
+	width: 250px;
+	border: 1px solid grey;
+	background: white;
+	display: none;
+}
+
+#menu11 ul{
+	padding-left: 10px;
+	
+}
+
+#menu11 ul li{
+	display: block;
+	clear: left;
+
+}
+
+#menu11 ul li a{
+	color: black;
+	line-height: 30px;
+
+}
+
+#hover:hover>#menu11{
+	display: block;
+}
+
+#menu11 ul li a:hover{
+	color: orange ;
+	text-decoration: underline;
+}
+
+
+#menu2{
+	float: right;
+	margin-top: 8px;
+}
+
+
+#menu2 ul li{
+	display: inline-block;
+	margin-right: 20px;
+
+}
+
+#menu2 ul li a{
+	color: white;
+}
+
+
+#acount{
+	width: 500px;
+	border: 1px solid grey;
+	position: absolute;
+	top: 90px;
+	right: 20px;
+	background: white;
+	display: none;
+}
+
+#acount #top{
+	width: 500px;
+	float: left;
+	border-bottom: 1px solid grey;
+	padding-left: 150px;
+	padding-top: 0px;
+}
+
+button{
+
+	width: 200px;
+	height: 40px;
+}
+
+#left{
+	width: 245px;
+	float: left;
+	padding-top: 15px;
+
+}
+#right{
+	float: right;
+	width: 245px;
+	border-left: 1px solid grey;
+	padding-top: 15px;
+}
+
+#left ul {
+	display: block;
+}
+
+
+#right ul {
+	display: block;
+}
+
+
+#menu2 ul li:hover>#acount{
+	display: block;
+}
+
+#acount li:hover{
+	text-decoration: underline;
+	color: orange;
+}
