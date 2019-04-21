@@ -90,10 +90,49 @@
 		//Bài 6
 		function pai6(){
 		for(var i=1 ; i<100 ; i=i+2){
-			var a = i;
-			var b = i+1;
-			document.write('<span style ="color : blue">'+ [a] + '</span>'  +" "+ '<span style ="color : red">'+ [b] + '</span>' +" " );
+			
+			document.write('<span style ="color : blue">'+ [i] + '</span>'  +" "+ '<span style ="color : red">'+ [i+1] + '</span>' +" " );
+			}
 		}
+
+
+
+
+
+		//  bài tập bổ sung
+		//Bài 1:
+		function pai1(s,c,n){
+			var newArr = [];
+			for( i=0;i<=n;i++ ){
+				newArr.push(s);
+			}
+
+			document.write(newArr.join(c))
+		}
+
+		//Bài 2:
+		function pai2(str) {
+   			var splitStr = str.toLowerCase().split(' ');
+
+  			for (var i = 0; i < splitStr.length; i++) {
+       
+       		splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].slice(1);     
+   			}
+   
+   		return splitStr.join(' '); 
+		}
+
+		//Bài 3:
+		//Đổi độ c sang độ f
+		function ph1(x){
+			var a = x*1.8+32
+			return x + " độ C = " + a +" độ F";
+		}
+
+		//Đổi độ f sang độ c
+		function ph2(x){
+			var a = (x-32)/1.8;
+			return x + " độ F = " +a +" độ C";
 		}
 		
 	</script>

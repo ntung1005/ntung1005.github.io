@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> For in </title>
+</head>
+<body>
+	<script>
+		//For in
+	/*const student={
+    	firstName:'Tèo',
+		lastName:'nguyễn',
+    	age:20
+	}
+
+	for(const key in student){
+		console.log(student[key])
+	}
+
+	const array =['a','b','c','d'];
+
+	for(const item of array){
+		console.log(item)
+	}*/
+
+	//Thực hành:
+	//Bài 1:
+	function bai1(arr){
+		const total=arr.reduce((kq,value)=>kq+value);
+		return total;
+	}
+
+	//Bài 2
+	function bai2(arr){
+		const layDu=arr.map(number=>number%2);
+		return layDu;
+	}
+
+	//Bài 3
+	function bai3(arr){
+		const laySoChan=arr.filter(number=>number%2==0);
+		return laySoChan;
+	}
+
+	//Bài 4
+	function bai4(arr){
+		const layH=arr.filter(string=>(string.charAt(0)=="h"||string.charAt(0)=="H"));
+		return layH;
+	}
+
+	
+
+	</script>
+</body>
+</html>
