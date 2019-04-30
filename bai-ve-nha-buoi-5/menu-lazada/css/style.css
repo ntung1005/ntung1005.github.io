@@ -1,0 +1,150 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+#menu{
+	height: 115px;
+	border: 1px solid black;
+	width: 100%;
+	font-family: tahoma;
+
+}
+
+
+#top{
+	height: 25px;
+	background: #0b3843;
+	padding-left: 20%;
+}
+
+#top ul{
+	margin: 0px;
+}
+
+#top ul li {
+	display: inline-block;
+	line-height: 25px;
+	font-size: 12px;
+
+}
+
+#top ul li a{
+	color: white;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+#bottom{
+	height: 90px;
+	background: #094553;
+	padding: 25px;
+	padding-left: 20%;
+}
+
+#img{
+	width: 200px;
+	height: 40px;
+	float: left;
+}
+
+#img img{
+	height: 100%;
+}
+
+#input{
+	width: 688px;
+	height: 45px;
+	background: white;
+	float: left;
+	padding: 7px 0px 0px 20px;
+}
+
+input{
+	width: 90%;
+	border: none;
+}
+
+#icon{
+	width: 35px;
+	height: 35px;
+	float: right;
+
+}
+
+#icon img{
+	width: 100%;
+
+}
+
+#table{
+	width: 200px;
+	font-size: 13px;
+	border: 1px solid grey;
+	position: absolute;
+	top: 15.2%;
+	background: white;
+}
+
+#table ul{
+	padding-left: 0px;
+}
+
+#table ul li{
+	list-style: none;
+	line-height: 25px;
+	padding-left: 10px;
+}
+
+#table ul li a{
+	text-decoration: none;
+	color: grey;
+}
+
+#dientu{
+	position: absolute;
+	left: 195px;
+    width: 200px;
+    top: 0px;
+    border: 1px solid grey;
+    background: white;
+    border-top: none;
+    display: none;
+    padding-top: 13px;
+    height: 325px;
+}
+
+#table ul li:hover>#dientu{
+	display: block;
+}
+
+#table2{
+	position: absolute;
+	left: 197px;
+    width: 200px;
+    top: 0px;
+    border: 1px solid grey;
+    background: white;
+    border-top: none;
+    display: none;
+    padding-top: 13px;
+    height: 325px;
+ 
+}
+
+#dientu ul li:hover>#table2{
+	display: block;
+
+}
+
+li:hover{
+	background: #cec0c0ad;
+}
+
+#table2 li:hover{
+	color: green;
+}
+

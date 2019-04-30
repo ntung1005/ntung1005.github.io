@@ -1,0 +1,46 @@
+body{
+	margin: 0px;
+	width: 1000px;
+	margin: auto;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#menu{
+	font-family: tahoma;
+	font-size: 16px;
+	height: 200px;
+	padding-top: 30px;
+	background:grey;
+}
+
+#top{
+	width: 100%;
+	height: 150px;
+	
+}
+
+#top #logo {
+	width: 200px;
+	float: left;
+
+}
+
+#top #logo img{
+	width: 100%;
+}
+
+#top #banner{
+	float: right;
+}
+
+#anh1 ,#anh2 ,#anh3 ,#anh4 ,#anh5 ,#anh6,#anh7,#anh8 ,#anh9{
+	width: 400px;
+}
+
+#anh1:hover ,#anh2:hover ,#anh3:hover ,#anh4:hover ,#anh5:hover ,#anh6:hover ,#anh7:hover ,#anh8:hover ,#anh9:hover {
+	transform: scale(1.1);
+	opacity: 0.8;
+}

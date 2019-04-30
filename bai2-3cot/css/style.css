@@ -1,0 +1,165 @@
+body{
+	width: 1000px;
+	margin: auto;
+	background: #e9eaea;
+}
+
+a:link{
+	color: black;
+}
+
+#header{
+	background: white;
+}
+
+#header #top{
+	padding: 20px;
+}
+
+#header #top a{
+	margin:20px;
+
+}
+
+#header #top li{
+	float: right;
+	margin: 10px;
+	list-style: none;
+
+}
+
+#header #bottom{
+	padding: 5px;
+}
+
+#header #bottom a{
+	margin: 2px;
+	text-decoration: none;
+	line-height: 80px;
+	font-size: 18px;
+}
+
+#header #bottom li{
+	float: right;
+	padding-right: 5px;
+	list-style: none;
+
+}
+
+#save{
+	width: 1000px;
+	height: 60px;
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+#search{
+	background: white;
+	width: 1000px;
+	height: 60px;
+}
+
+#search img{
+	height: 30px;
+	padding-top: 17px;
+	padding-left: 10px;
+	float: left;
+}
+
+#search p{
+	float: left;
+	padding-top: 8px;
+	color: #e9eaea;
+}
+
+#main{
+	width: 1000px;
+	height: auto;
+
+}
+
+#main #left{
+	
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+}
+
+#main #center{
+
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+}
+
+#main #right{
+	
+	float: left;
+	width: 32%;
+	
+}
+#main #left #d1{
+
+	background: white;
+}
+#main #left #d1 img{
+	width: 100%;
+}
+
+#main #left #d1 h3,p{
+	text-align: center;
+}
+
+
+#main #left #d2 img{
+	width: 100%;
+}
+
+#main #left #d2 h3,p{
+	text-align: center;
+}
+
+
+#main #center #d1 img{
+	width: 100%;
+}
+
+#main #center #d1 h3,p{
+	text-align: center;
+}
+
+#main #center #d2 img{
+	width: 100%;
+}
+
+#main #center #d2 h3,p{
+	text-align: center;
+}
+
+#main #right #d1 img{
+	width: 100%;
+}
+
+#main #right #d1 h3,p{
+	text-align: center;
+}
+
+#main #right #d2 img{
+	width: 100%;
+}
+
+#main #right #d2 h3,p{
+	text-align: center;
+}
+
+#d{
+	border-bottom: 1px solid #e9eaea;
+}
+
+#d1{
+	background: white;
+}
+#d2{
+	background: white;
+	margin-top: 8%;
+}

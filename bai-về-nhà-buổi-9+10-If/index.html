@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> bài tập sử dụng IF </title>
+</head>
+<body>
+	<script>
+		//Phần 1
+		//Bài 1:
+		function bai1( x , y){
+
+			if(typeof(x)!="number" || typeof(y)!= "number" ){
+				document.write(" x hoặc y không phải là số, không thể so sánh ")
+			}
+
+			else{
+				if (x>y) {
+					document.write(+x+ " là số lơn nhất" +"<br>")
+				}
+
+				else {
+					document.write(+y+" là số lớn nhất" +"<br>")
+				}
+			}
+		}
+
+
+		//Bài 2:
+		function bai2(x){
+			if (x<=0||typeof(x)!="number"||x!="Integer") {
+				return("Không phải số nguyên dương.Không thể tính giai thừa" )
+			}
+
+			else{
+				for(var a=1 ; x>=1 ; x-- ){
+					var a= a*x;
+				}
+				return a;
+			}
+		}
+
+
+		function bai3(arr) {
+		  var newArr = [];
+		  for(i = 0;i < arr.length;i++){
+		  	if(arr[i]%2==0){
+		    newArr.push(arr[i]);
+			}
+		  }
+		  return (newArr.sort(function(a,b){return b-a}) );
+		}
+
+
+		//Bài 4:
+		let user ={
+			username:"username",
+			password:"secret",
+			confirm:"secret",
+		}
+
+		function bai4(user){
+			
+
+			if (user.username.length>0 && user.username.length<=20 && user.password.length>=6 && user.password.length<=32 && user.confirm.length>=6 && user.confirm.length<=32) {
+
+				console.log("pass")
+			}
+
+			else{
+				console.log("fail")
+			}
+		}
+		
+
+		/*console.log(bai4(user={
+				username:"nguyễn văn tùng",
+				password:"12352xjasvdkjas",
+				confirm:"sfjbsdolfhsodhifsdo",
+			}))*/
+
+
+
+
+
+		//phần 2
+		//Bài 1:
+		function pai1(){
+			var d = new Date();
+			document.write( d );
+			var months = [1,2,3,4,5,6,7,8,9,10,11,12];
+			if(months[d.getMonth()]<=3){
+				return ("Spring");
+			} 
+
+			else if(months[d.getMonth()]>=4&&months[d.getMonth()]<=6){
+				return ("Summer");
+			}
+
+			else if(months[d.getMonth()]>=7&&months[d.getMonth()]<=9){
+				return ("Autumn");
+			}
+
+			else{
+				return ("Winter")
+			}
+		}
+
+
+		function pai2(str){
+			var str = str.toString() 
+
+			if (str.length<=10) {
+				return str;
+			}
+
+				else{
+					return str.slice(0,9).slice(0,9)+"...";
+			}
+		}
+
+
+		function pai3(x){
+	
+			if (x<0||x>10) {
+				return ("Mày bị điên à!!!")
+			}
+
+			else if(x>=0&&x<=3.9){
+				return x+" : Điểm F";
+			}
+
+			else if(x>=4&&x<=5.4){
+				return x+" : Điểm D";
+			}
+
+			else if(x>=5.5&&x<=6.9){
+				return x+" : Điểm C";
+			}
+
+			else if(x>=7&&x<=8.4){
+				return x+" : Điểm B";
+			}
+
+			else if(x>=8.5&&x<=10){
+				return x+" : Điểm A";
+			}
+
+		}
+		
+
+		//Bài 4:
+		function translate(x){
+			console.log('Từ "Hello" Trong ')
+
+			switch (x){
+				case 86 :console.log("Tiếng Trung Quốc : 你好");
+				break;
+
+				case 82:console.log("Tiếng Hàn Quốc : 여보세요");
+				break;
+
+				case 81:console.log("Tiếng Nhật Bản : こんにちは");
+				break;
+
+				case 49:console.log("Tiếng Đức : Hallo");
+				break;
+
+				case 33:console.log("Tiếng Pháp : Bonjour");
+				break;
+
+				default:console.log("Tiếng Việt : Xin Chào");
+				break;
+			}
+		}
+
+
+		//Bai 5:
+		function pai5(){
+			var arr=["false","false","false","true","false","true","false","true"];
+
+			for(var i=0;i<=arr.length-1;i++){
+				if (arr[i]=="true") {
+					return i;
+				}
+			}
+		}
+
+		//bài trên lớp
+		//Bài 1: in ra 1->100 chỉ rõ số chia hết cho 5
+		
+
+		function b1() {
+		  for( i = 1; i <= 100;i++){
+		    if(i % 5 == 0){
+		      document.write('<span style="color :blue">' + i + '</span>' +" ");
+		    	} 
+
+		    else if(i %5 ==1){
+		      document.write('<span style="color :red">' + i +' </span>' +" ")
+   				 }
+
+   			else if(i %5 ==2){
+		      document.write('<span style="color :green">' + i +' </span>' +" ")
+   				 }
+
+   			else if(i %5 ==3){
+		      document.write('<span style="color :purple">' + i +' </span>'+" ")
+   				 }
+
+   			else {
+		      document.write('<span style="color :pink">' + i +' </span>'+" ")
+   				 }
+ 			 }
+		}
+
+
+		//Bài 2: in ra màu số chia hết cho 3 và 5
+		
+
+		function b2(){
+			for( i = 1; i <= 100;i++){
+
+				if (i%3==0 && i%5==0) {
+					document.write('<span style="color :green">' + i + '</span>' +" ");
+				}
+
+				else if(i%5==0){
+					document.write('<span style="color :blue">' + i + '</span>' +" ");
+				}
+
+
+				else if(i%3==0){
+					document.write('<span style="color :orange">' + i + '</span>' +" ");
+				}
+
+
+				else{
+					document.write('<span style="color :red">' + i + '</span>' +" ");
+				}
+			}
+		}
+		
+		
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	line-height: 1.5;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#mp3{
+	height: 124px;
+	border: 1px solid #dbdbdb;
+	width: 100%;
+
+}
+
+#top{
+	height: 72px;
+	padding-left: 15%;
+	width: 100%;
+}
+
+#logo{
+	width: 120px;
+	float: left;
+	margin: 20px 30px 0px 20px;
+}
+
+#logo img{
+	width: 100%;
+}
+
+#search{
+	width: 540px;
+	height: 40px;
+	padding: 10px;
+	border: 1px solid #dbdbdb;
+	float: left;
+	margin-top: 20px;
+}
+
+
+#search img{
+	width: 20px;
+
+}
+
+#bottom{
+	padding-left: 15%;
+	background: #f7f7f7;
+	width: 100%;
+}
+
+#bottom #ul1{
+	height: 52px;
+	margin: 0px auto;
+	
+
+}
+
+
+
+#bottom #ul1 li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 16px;
+
+}
+
+#bottom ul li a{
+	text-decoration: none;
+
+}
+
+a{
+	font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #92929d;
+    padding-bottom: 15px;
+
+    display: block;
+ 	border-bottom: 2px solid transparent;
+   
+}
+
+#zingchart , #top100 , #chude , #video , #album , #nghesi {
+	
+	border: 1px solid #dbdbdb;
+	border-top: none;
+	padding-bottom: 20px;
+
+}
+
+#zingchart{
+	position: absolute;
+	top: 136px;
+	left: 350px;
+	display: none;
+}
+
+#top100{
+	position: absolute;
+	top: 136px;
+	left: 450px;
+	display: none;
+}
+
+#chude{
+	position: absolute;
+	top: 136px;
+	left: 520px;
+	display: none;
+}
+
+#video{
+	position: absolute;
+	top: 136px;
+	left: 600px;
+	display: none;
+}
+
+#album{
+	position: absolute;
+	top: 136px;
+	left: 680px;
+	display: none;
+}
+
+#nghesi{
+	position: absolute;
+	top: 136px;
+	left: 750px;
+	display: none;
+}
+
+
+#vietnam , #aumi , #chaua , #hoatau{
+	width: 150px;
+	float: left;
+	margin-right: 20px;
+}
+
+#vietnam li, #aumi li, #chaua li, #hoatau li{
+	width: 150px;
+}
+#li3:hover>#zingchart{
+	display: block;
+}
+
+#li3:hover>#top100 {
+	display: block;
+}
+
+#li3:hover>#chude{
+	display: block;
+}
+
+#li3:hover>#video{
+	display: block;
+}
+
+#li3:hover>#album{
+	display: block;
+}
+
+#li3:hover>#nghesi{
+	display: block;
+}
+
+#li3:hover{
+	border-bottom: 3px solid purple;
+}
