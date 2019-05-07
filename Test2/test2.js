@@ -6,15 +6,7 @@ function bai1(arr) {
 
 //Bài 2:
 function bai2(arr){
-	for(i=0;i<arr.length-1;i++){
-		s = arr[0];
-		if (arr[i].length>arr[0].length) {
-			s= arr[i];
-		}
-
-	}
-	return s;
-
+	return arr.sort(function(a,b){return b.length-a.length})[0];
 }
 
 //Bài 3:
