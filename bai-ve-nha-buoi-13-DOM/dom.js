@@ -70,5 +70,5 @@ function changeBackGroundColor(){
 //Bài 6
 
 function copyContent() {
-  	p1.innerText=p2.innerText;
+  	document.getElementById('p1').innerText=document.getElementById('p2').innerText;
 }
