@@ -20,7 +20,7 @@ function increaseFontSize() {
 		var s = parseInt(p.style.fontSize);
 		} else {
 	 
-		var s = 18;
+		var s = 17;
 		}
 
 		if(s!=max) {
@@ -70,6 +70,5 @@ function changeBackGroundColor(){
 //Bài 6
 
 function copyContent() {
-  	var p2="Đúng 6h30p, gã có mặt ở 48 Tố Hữu. Đợt cắm trại này đoàn có 30 người, được dẫn dắt bởi thủ lĩnh, Ông Trùm khu Văn Điển, thầy giáo lớp Web Front-end Đặng Quang Huy."
-  	document.getElementById("p1").innerHTML= p2;
+  	p1.innerText=p2.innerText;
 }
