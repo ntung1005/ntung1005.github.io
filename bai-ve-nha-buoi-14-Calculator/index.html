@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Calculator </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<table>
+		<tr>
+			<tr>
+				<td class="heading">Calculator</td>
+			</tr>
+
+			<td>
+				<input type="text" id="input" placeholder="0">
+				<input type="text" id="answer" style="color: green">
+			</td>
+
+		</tr>
+
+		<td>
+			<input type="button" value="C" onclick="clearScreen()" style="color: white ; background: red">			
+			<input type="button" value="&#8592" onclick="back()" style="color: red ">
+			<input type="button" value="(" onclick="getOperand('(')" style="background: #33c0c9">
+			<input type="button" value=")" onclick="getOperand(')')" style="background: #33c0c9">
+			
+			<br>
+
+			<input type="button" value="^2" onclick="getOperand('^2')" style="background: pink">
+			<input type="button" value=" ! " onclick="tinhGiaiThua()" style="background: pink">
+			<input type="button" value="&#8730" onclick="tinhCanBacHai()" style="background: pink">
+			<input type="button" value=" + " onclick="getOperand('+')" style="background: pink">
+			<br>
+			
+			<input type="button" value=" 1 " onclick="getNumber(1)">
+			<input type="button" value=" 2 " onclick="getNumber(2)">
+			<input type="button" value=" 3 " onclick="getNumber(3)">
+			<input type="button" value=" - " onclick="getOperand('-')" style="background: pink">
+			
+			<br>
+
+			<input type="button" value=" 4 " onclick="getNumber(4)">
+			<input type="button" value=" 5 " onclick="getNumber(5)">
+			<input type="button" value=" 6 " onclick="getNumber(6)">
+			<input type="button" value=" x " onclick="getOperand('x')" style="background: pink">
+			
+			<br>
+
+			<input type="button" value=" 7 " onclick="getNumber(7)">
+			<input type="button" value=" 8 " onclick="getNumber(8)">
+			<input type="button" value=" 9 " onclick="getNumber(9)">
+			<input type="button" value=" &#247 " onclick="getOperand('/')" style="background: pink">
+			<br>
+
+			<input type="button" value=" 0 " onclick="getNumber(0)">
+			<input type="button" value="." onclick="(getOperand('.'))">
+			<input type="button" value=" = " onclick="compute()" style="width: 120px; color: white; background: green;">
+			
+		</td>
+	</table>
+	<script src="Calculator.js"></script>
+</body>
+</html>
