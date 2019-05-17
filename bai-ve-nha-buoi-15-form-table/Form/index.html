@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Form Đăng Kí FB </title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="khung">
+		<h1>Đăng Ký</h1>
+		<p>Luôn miễn phí </p>
+
+		<form action="kq.html" id="form-register" onsubmit="condition()">
+			<div style="width: 400px;height: 39px;">
+			<input type="text" name="" placeholder="Họ" style="width: 198px;height: 39px;font-size: 20px;float: left;margin-right: 4px; padding: 10px;" id="ho">
+			<input type="text" name="" placeholder="Tên" style="width: 198px ; height: 39px;font-size: 20px ; float: left;padding: 10px;" id="ten">
+			</div>
+			<input type="email" name="email" placeholder="Số di động hoặc email" style="width: 400px;height: 39px;font-size: 20px;padding: 10px;" id="email"><br>
+			<input type="password" name="password" placeholder="Mật khẩu mới" style="width: 400px;height: 39px;font-size: 20px;padding: 10px;">
+			<br>
+			<h2>Ngày sinh</h2>
+			<div id="birthday">
+				
+				<select id="day" name="day">
+					<option>Ngày</option>
+				</select>
+
+				<select id="month" name="month">
+					<option>Tháng</option>
+					
+				</select>
+
+				<select id="year" name="year">
+					<option>Năm</option>
+					
+				</select>
+				
+				
+			</div>
+<br>
+			 <input type="radio" name="gender" value="nu" checked="" id="nu"> <label for="nu">Nữ</label>
+  			<input type="radio" name="gender" value="nam" checked="" id="nam"> <label for="nam">Nam</label><br>
+		
+
+		<p style="font-size: 15px; color: grey">Bằng cách nhấp vào Đăng ký, bạn đồng ý với<a href=""> Điều khoản, Chính sách dữ liệu và Chính sách cookie của chúng tôi</a>. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.</p>
+
+		<input type="submit" value="Đăng Ký"> 
+	
+
+		<br>
+		<a href="">Tạo Trang</a> dành cho người nổi tiếng, nhãn hiệu hoặc doanh nghiệp.
+		</form>
+</div>
+	<script type="text/javascript" src="form.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+#khung{
+	font-family: inherit;
+
+	width: 450px;
+	border: 1px solid blue;
+	padding: 15px;
+	border-radius: 5px;
+	margin:50px auto;
+	background: linear-gradient(#fdfdfd,#dde0ec);
+}
+*{
+	box-sizing: border-box;
+}
+
+
+a{
+	text-decoration: none;
+	color: blue;
+}
+
+input{
+	
+	margin-bottom: 5px;
+	border:1px solid grey;
+	border-radius: 5px;
+	color: #1e1e1e;
+
+}
+
+button{
+	width: 200px;height: 35px;
+	border-radius: 5px;
+	font-size: 20px;
+	background: green;
+	border: none;
+}
+
+#birthday{
+	width: 400px;
+	height: 30px;
+}
+
+#day , #month , #year{
+	height: 30px;
+	border-radius: 5px;
+}
+
+input[type="submit"]{
+	width: 200px;
+	height: 35px;
+
+	background: linear-gradient(#79bc64, #578843);
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	
+}
+
+input[type="radio"]{
+	margin-left: 10px;
+	background: #FFFFFF
+}
+
+label{
+	font-size: 20px;
+	font-family:sans-serif;
+}
