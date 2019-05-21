@@ -1,0 +1,80 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Đăng Ký</title>
+</head>
+
+<body>
+<div class="workarea">
+
+  <h1>Đăng Ký</h1>
+  <form id=registration_form action="register.html" method="post">
+<table>
+<tr>
+  <td><label for="form_username">UserName:</label> </td>
+  <td><input type="text" id="form_username" class="form" name="Họ và Tên: "></td><span class="error1" id="username_error_message"></span>
+</tr>
+
+<tr>
+  <td><label for="form_password">Password: </label></td>
+  <td><input type="password" id="form_password" class="form" name="Password"></td>
+  <span class="error2" id="password_error_message"></span>
+</tr>
+
+<tr>
+  <td><label for="form_retype_password">Retype Password: </label></td>
+  <td><input type="password" id="form_retype_password" class="form"
+  name="Retype Password"></td>
+  <span class="error3" id="retype_password_error_message"></span>
+</tr>
+
+<tr><td><label for="form_email">Email:</label> </td>
+  <td><input type="text" id="form_email" class="form" name="Email"></td>
+  <span class="error4" id="email_error_message"></span>
+</tr>
+
+</table>
+
+
+    <p>Ngày sinh</p>
+
+      <div>
+
+        <select id="day" name="Day">
+
+          <option>Ngày</option>
+        </select>
+
+        <select id="month" name="Month">
+          <option>Tháng</option>
+        </select>
+
+        <select id="year" name="Year">
+          <option>Năm</option>
+        </select>
+      </div>
+<br>
+      <div>
+        <input type="radio" name="gender" value="Nữ" id="nu" checked=""><label for="nu">Nữ</label>
+
+        <input type="radio" name="gender" value="Nam" id="nam" checked=""><label for="nam">Nam</label>
+      </div>
+      <br>
+
+      <input type="submit" value="Đăng Ký" id="submit">
+  </form>
+
+</div><!-- end of workarea -->
+
+<script type="text/javascript" language="javascript" src="js/jquery.js"></script>
+
+<script type="text/javascript" language="javascript" src="js/form.js"></script>
+
+<script type="text/javascript" src="js/date.js"></script>
+
+</body>
+</html>

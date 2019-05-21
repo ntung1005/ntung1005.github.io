@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+}
+
+
+
+
+span{
+	color: white;
+	background: red;
+	border-radius: 5px;
+}
+
+
+.error1{
+	position: absolute;
+	top: 90px;
+	left: 320px;
+}
+
+.error2{
+	position: absolute;
+	top: 115px;
+	left: 320px;
+}
+
+.error3{
+	position: absolute;
+	top: 140px;
+	left: 320px;
+}
+
+.error4{
+	position: absolute;
+	top: 165px;
+	left: 320px;
+}
+
+.workarea{
+	border: 1px solid grey;
+	width: 550px;
+	padding: 5px;
+	background: linear-gradient(#fdfdfd,#dde0ec);
+	position: relative;
+	margin: 20px auto;
+}
+
+.form{
+	width: 150%;
+	height: 150%;
+}
+
+#submit{
+	width: 180px;
+	height: 40px;
+	background: linear-gradient(#90d076,#2d5f18);
+	border:1px solid black;
+	border-radius: 5px;
+	font-size: 18px;
+	color: white;
+	font-family: inherit;
+
+}

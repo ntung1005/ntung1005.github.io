@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Bạn đã đăng ký thành công</h1>
+	<h2>Thông tin đăng Ký của bạn</h2>
+	<span id="check1"></span>
+
+	<script>
+		let str=decodeURIComponent(window.location.href);
+		/*let a = str.indexOf("?");
+
+		let n =str.slice(a+1);*/
+
+		n=str.split('?')[1];
+
+		let y = n.replace(/&/g, "<br>");
+		let x = y.replace(/=/g, ": ")
+		let z = x.split('+').join(' ');
+		document.getElementById("check1").innerHTML = z;
+
+	</script>
+
+</body>
+</html>

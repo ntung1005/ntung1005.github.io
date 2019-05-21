@@ -1,0 +1,42 @@
+
+
+table,td,th{
+	border: 1px solid grey;
+}
+h1{
+	text-align: center;
+}
+table{
+	border-collapse: collapse;
+
+	margin:30px auto;
+}
+
+td,th{
+	padding: 5px;
+	
+	height: 80px;
+	min-width: 60px;
+	text-align: center;
+}
+
+th{
+	background: #428000;
+	color: white;
+	height: 50px;
+}
+
+tr:nth-child(even){
+	background: #ddd;
+}
+
+img{
+	height: 100%;
+	border-radius: 50%;
+}
+
+tr:hover{
+	background: #004a80;
+	color: orange;
+	cursor: pointer;
+}
