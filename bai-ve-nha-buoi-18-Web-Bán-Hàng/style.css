@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 1200px;
+    margin: auto;
+   
+}
+
+#header{
+    float: left;
+    height: 410px;
+
+    padding: 10px;
+    
+}
+
+#input{
+    height: 40px;
+    
+}
+
+#header #input img{
+    height: 100%;
+    width: 40px;
+    float: left;
+}
+
+#search{
+    margin-left: 10%;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+#banner{
+    width: 100%;
+    margin-top:60px;
+}
+
+#banner img{
+    max-height: 300px;
+}
+
+#menu{
+    width: 100%;
+}
+
+.btn-group{
+    width: 30%;
+    margin-right:2%;
+}
+
+#home,#infor,#shoes{
+    width: 100%;
+}
+
+a{
+    width: 100%;;
+}
+
+#main{
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+}
+
+.card{
+    float: left;
+    width: 24%;
+    margin: 0.5%;
+}
+
+#footer{
+    float: left;
+    height: 100px;
+    width: 100%;
+    background: white;
+}
+
+.col{
+    width: 30%;
+    height: 100px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.row{
+    margin: auto;
+}
