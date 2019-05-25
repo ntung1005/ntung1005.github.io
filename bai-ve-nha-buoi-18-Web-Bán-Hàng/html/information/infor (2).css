@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+#content{
+    width:1000px ;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
