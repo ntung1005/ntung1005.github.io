@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+header{
+    max-width: 1200px;
+}
+#banner {
+    max-width: 1200px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+#navbar{ 
+    width: 100%;
+    max-height: 40px;
+    position: absolute;
+    top: 0;
+    background: none;
+}
+
+#icon{
+    margin: 150px auto;
+    max-width: 80%;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+#icon img{
+    max-width: 43px;
+}
+
+#about{
+   text-align: center;
+   max-height: 600px; 
+}
+
+#about img{
+    max-width: 500px;
+}
+
+#how{
+    text-align: center;
+    background: #f8f3f3;
+}
+
+#how #icon{
+    padding: 100px;
+    border-bottom: 1px solid #ecdede;
+}
+
+#how #under{
+    padding: 15%;
+}
+
+#how #under #bitmap{
+    padding: 10%;
+}
+
+#how #under #bitmap img{
+    max-width: 40px;
+}
+
+#infor{
+    padding: 15%;
+}
+
+#contact{
+    padding: 15px 15px 40px 15px;
+    border: 1px solid grey;
+}
+
+#price{
+    background: #f8f3f3;
+    padding: 20% 10% 10% 10%;
+}
