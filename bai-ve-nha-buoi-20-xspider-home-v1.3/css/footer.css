@@ -1,0 +1,31 @@
+footer{
+    position: relative;
+
+}
+
+#text1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding:5% 15%;
+    text-align: center;
+    
+}
+
+footer .btn{
+    color: #2f5bea;
+}
+
+footer #below{
+    padding: 5% 20%;
+    
+}
+
+footer #below ul li{
+    list-style: none;
+}
+
+footer #below img{
+    max-width: 2rem;
+    max-height: 2rem;
+}

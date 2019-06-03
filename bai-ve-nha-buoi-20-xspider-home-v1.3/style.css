@@ -3,10 +3,10 @@
 }
 
 header{
-    max-width: 1200px;
+    
 }
 #banner {
-    max-width: 1200px;
+    
     position: relative;
 }
 
@@ -15,7 +15,8 @@ img {
 }
 
 #navbar{ 
-    width: 100%;
+    align-items: center;
+    width: 80%;
     max-height: 40px;
     position: absolute;
     top: 0;
@@ -23,7 +24,7 @@ img {
 }
 
 #icon{
-    margin: 150px auto;
+    margin: 10% auto;
     max-width: 80%;
     padding: 40px;
     text-align: center;

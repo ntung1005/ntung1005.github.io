@@ -1,0 +1,62 @@
+header{
+    
+}
+#banner {
+    
+    position: relative;
+}
+
+#banner h2{
+    font-size: 2rem;
+}
+
+#banner p{
+    font-size: 1rem;
+}
+
+
+#navbar{ 
+    width: 100%;
+    padding: 0 20%;
+    max-height: 2rem;
+    position: absolute;
+    top: 0;
+    background: none;
+}
+
+#navbarSupportedContent{
+    text-align: end;
+}
+
+#navbar a{
+    color: #ecdede;
+}
+
+
+
+
+#content{ 
+    width: 100%;
+    padding: 0 20%;
+    
+    position: absolute;
+    top: 25%;
+    background: none;
+}
+
+#content1{
+    width: 40%;
+    color: white;
+}
+
+#play{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+}
+
+#play img{
+    max-width: 2rem;
+    max-height: 2rem;
+    margin-right: 0.25rem;
+}

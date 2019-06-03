@@ -9,45 +9,91 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
     <title>Sử dụng Figma</title>
 </head>
 
 <body>
-    <header class="container">
-        <div id="container">
-            <div id="banner">
-                <img src="img/Bitmap.png" alt="">
+
+    <header>
+        <div id="banner">
+            <img src="img/Bitmap.png" alt="">
 
 
-                <div class="container" id="navbar">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="#"><img src="img/LOGO.png"></a>
+            <div id="navbar">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div><a class="navbar-brand" href="#"><img src="img/LOGO.png"> </a><a href="#">xPider</a></div>
 
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation" style="border-color:aqua">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation" style="border-color:aqua">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Feature <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: black">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
 
-                            <form class="form-inline my-2 my-lg-0">
-                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
-                                    aria-label="Search">
-                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                            </form>
-                        </div>
-                    </nav>
+                        </ul>
+
+                    </div>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <form class="form-inline my-2 my-lg-0" style="float:right">
+                            <button type="button" class="btn btn-primary" style="float:right">Get started,It's
+                                free</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+
+            <div id="content">
+                <div id="content1">
+                    <h2>Accomplish more, everyday</h2>
+                    <p>Millions of people trust xPider to create beautiful websites.</p>
+                    <form class="form-inline my-2 my-lg-0" style="width:80%">
+                        <button type="button" class="btn btn-primary">GET STARTED,IT'S FREE</button>
+                    </form>
+                    <div id="play">
+                        <img src="img/PLAY.png">
+                        <p>Watch our video</p>
+                    </div>
 
                 </div>
             </div>
         </div>
-
     </header>
 
+
     <main class="container">
-        <div id="top" >
+
+        <div id="text">
+            <h2>xPider brings all your creativity together</h2>
+            <p>When you need a kickstart in your business and you have no time for coding for your website, xPider will
+                take that job for you and will build a great looking website in minutes.</p>
+        </div>
+
+        <div id="top">
             <div class="container row" id="icon">
                 <div class="col-md-4"><img src="img/icon/drag.png"></div>
                 <div class="col-md-4"><img src="img/icon/settings.png"></div>
@@ -57,8 +103,17 @@
             <div id="about">
                 <div class="row">
                     <div class="col-md-6"><img src="img/browser.png"></div>
+
                     <div class="col-md-6">
-                        <div style="height:70%;border-bottom:1px solid grey"></div>
+                        <div style="height:60%;border-bottom:1px solid grey;padding: 1.5rem 0; margin: 1rem 0;">
+                            <h2>Build anything, anytime!</h2>
+                            <ul>
+                                <li>Your users are impatient. They're probably distracted too. Keep it simple and
+                                    beautiful, fun and functional. By a strong concept is what we stand for.</li>
+                                <li>They're probably distracted too. Keep it simple & clean, fun and functional. Clean
+                                    aesthetics supported.</li>
+                            </ul>
+                        </div>
                         <div style="padding: 15px">“Wow. I just updated my site and it was SO SIMPLE. I am blown away.
                             You guys truly kick ass. Thanks for being so awesome. High fives!”</div>
                     </div>
@@ -67,6 +122,13 @@
         </div>
 
         <div id="how" class="container">
+
+            <div id="text">
+                <h2>How xPider works for you?</h2>
+                <p>When you need a kickstart in your business and you have no time for coding for your website, xPider
+                    will take that job for you and will build a great looking website in minutes.</p>
+            </div>
+
             <div id="icon" class="row">
                 <div class="col-md-4"><img src="img/icon/ICON1.png"></div>
                 <div class="col-md-4"><img src="img/icon/ICON2.png"></div>
@@ -76,57 +138,156 @@
             <div id="under" class="row" style="text-align: center;">
                 <div class="col-md-6"><img src="img/shutterstock.png"></div>
                 <div class="col-md-6">
-                    <div class="row" style="padding-top:40%" id="bitmap">
+                    <div>
+                        <h2>Built for growth</h2>
+                        <p>Use Timeline to plan projects right the first time. See how the pieces fit together so you
+                            can spot gaps and overlaps before you start.</p>
+                    </div>
+                    <div class="row" id="bitmap">
                         <div class="col-md-4"><img src="img/icon/Bitmap1.png"></div>
                         <div class="col-md-4"><img src="img/icon/Bitmap2.png"></div>
                         <div class="col-md-4"><img src="img/icon/Bitmap3.png"></div>
+                    </div>
+
+                    <div>
+                        <p>Big, small, online, offline, local or international. Size doesn't matter. We work on diverse
+                            projects for top brands as well as for cool startups. Check out some of our favorites.</p>
                     </div>
                 </div>
 
             </div>
         </div>
 
-        <div id="infor" >
-            <div class="row" style="margin-bottom:150px;">
-                <div class="col-md-6"></div>
+        <div id="infor">
+            <div class="row" style="margin-bottom:7rem;">
+                <div class="col-md-6">
+                    <div style="margin-bottom: 3rem" ;>
+                        <h2>1500+ Unique Blocks</h2>
+                        <p>Use Timeline to plan projects right the first time. See how the pieces fit together so you
+                            can spot gaps and overlaps before you start.</p>
+                        <a href="#">See all blocks live</a>
+                    </div>
+                </div>
                 <div class="col-md-6"><img src="img/Block.png"></div>
             </div>
 
+            <div id="text">
+                <h2>You’re in a good hand</h2>
+                <p>Millions of people around the world have already made xPider the place where their dream happens.</p>
+            </div>
+
             <div class="row" style="text-align: center; margin-bottom: 100px;">
-                <div class="col-md-4" id="contact"><p>Life before Company was very chaotic — we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.</p></div>
-                <div class="col-md-4" id="contact"><p>There’s no way we could have hired these many people and gotten so much business had we not had all of those back-office systems figured out. It’s been easier growing our company with a system that is so easy and scalable.
-                </p></div>
-                <div class="col-md-4" id="contact"><p>Wow. I just updated my site and it was SO SIMPLE. I am blown away. You guys truly kick ass. Thanks for being so awesome. High fives!</p></div>
+                <div class="col-md-4" id="contact">
+                    <div id="contact1">
+                        <p>Life before Company was very chaotic — we got a lot of phone calls, a lot of mistyped orders.
+                            So
+                            with Company, the ability to see the order directly from the customer makes it so
+                            streamlined.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-4" id="contact">
+                    <div id="contact1">
+                        <p>There’s no way we could have hired these many people and gotten so much business had we not
+                            had
+                            all of those back-office systems figured out. It’s been easier growing our company with a
+                            system
+                            that is so easy and scalable.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-4" id="contact">
+                    <div id="contact1">
+                        <p>Wow. I just updated my site and it was SO SIMPLE. I am blown away. You guys truly kick ass.
+                            Thanks for being so awesome. High fives!</p>
+                    </div>
+                </div>
+
+                <a href="#" style="margin: 1rem auto">Check all testimonials </a>
             </div>
 
             <div><img src="img/icon/BRANDS.png"></div>
         </div>
 
-        <div id="price" >
-            <div class="row" style="margin-bottom:150px ; text-align: center;">
+        <div id="price">
+
+            <div id="text">
+                <h2>Simple, Straight Pricing</h2>
+                <p>Millions of people around the world have already made xPider the place where their dream happens.</p>
+            </div>
+
+            <div class="row" style="margin-bottom:2rem ; text-align: center;">
                 <div class="col-md-3"></div>
                 <div class="col-md-3"><img src="img/1.png"></div>
                 <div class="col-md-3"><img src="img/2.png"></div>
                 <div class="col-md-3"></div>
             </div>
+
+            <div style="text-align: center">
+                <p>Both pricings contains all of our features.</p>
+                <a href="#">Check all our features </a>
+            </div>
         </div>
     </main>
 
-    <footer class="container">
-        <img src="img/Group.png">
+    <footer class="container-fluid">
+        <div id="above">
+            <img src="img/Group.png">
+            <div id="text1">
+                <h2>Try xPider for 14 days, for free!</h2>
+                <p>Millions of people around the world have already made xPider the place where their dream happens.</p>
+                <button type="button" class="btn btn-light">GET STARTED</button>
+            </div>
+        </div>
+
+        <div id="below" class="row">
+            <div class="col-md-3"><img src="img/LOGO.png"></div>
+            <div class="col-md-3">
+                <ul>
+                    <h4>Company</h4>
+                    <li>About Us</li>
+                    <li> Careers</li>
+                    <li> Blog</li>
+                    <li> Press</li>
+                    <li> Brand Guidelines</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul>
+                    <h4>Company</h4>
+                    <li>About Us</li>
+                    <li> Careers</li>
+                    <li> Blog</li>
+                    <li> Press</li>
+                    <li> Brand Guidelines</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul>
+                    <h4>Company</h4>
+                    <li>About Us</li>
+                    <li> Careers</li>
+                    <li> Blog</li>
+                    <li> Press</li>
+                    <li> Brand Guidelines</li>
+                </ul>
+            </div>
+        </div>
     </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
