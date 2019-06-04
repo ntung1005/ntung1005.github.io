@@ -1,19 +1,26 @@
 footer{
     position: relative;
-
+    
 }
 
 #text1{
     position: absolute;
     top: 0;
     width: 100%;
-    padding:5% 15%;
+    padding:5% 30%;
     text-align: center;
     
 }
 
 footer .btn{
+    margin-top: 0.1rem;
     color: #2f5bea;
+    
+}
+
+footer #above{
+    color: white;
+    
 }
 
 footer #below{
