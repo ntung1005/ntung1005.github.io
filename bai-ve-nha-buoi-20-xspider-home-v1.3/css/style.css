@@ -25,13 +25,17 @@ html{
 
 @media(max-width:800px){
     #price img{
-        width: 40%;
+        width: 70%;
     }
 }
 
 @media(max-width:660px){
     html{
         font-size: 9px;
+    }
+
+    #price img{
+        width: 50%;
     }
 }
 
