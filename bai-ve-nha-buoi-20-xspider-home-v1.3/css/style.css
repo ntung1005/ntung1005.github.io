@@ -23,6 +23,12 @@ html{
     }
 }
 
+@media(max-width:800px){
+    #price img{
+        width: 40%;
+    }
+}
+
 @media(max-width:660px){
     html{
         font-size: 9px;
