@@ -91,7 +91,7 @@ input[type="button"]:hover{
 
 @media(max-width:640px){
     html{
-        font-size: 7px;
+        font-size: 8px;
     }
 
     .row{
@@ -100,15 +100,6 @@ input[type="button"]:hover{
     }
 }
 
-@media(max-width:575px){
-    html{
-        font-size: 15px;
-    }
 
-    #sign-up{
-        padding:2rem 0.5rem;
-    }
-
-}
 
 
