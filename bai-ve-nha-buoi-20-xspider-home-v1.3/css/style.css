@@ -7,9 +7,19 @@ img {
     width: 100%;
 }
 
+.col{
+    text-align: center;
+}
+
+ul{
+    padding-left: 0.25rem;
+}
+
 html{
     font-size: 20px;
 }
+
+
 
 @media(max-width:1200px){
     html{
@@ -29,9 +39,9 @@ html{
     }
 }
 
-@media(max-width:660px){
+@media(max-width:700px){
     html{
-        font-size: 9px;
+        font-size: 8px;
     }
 
     #price img{
