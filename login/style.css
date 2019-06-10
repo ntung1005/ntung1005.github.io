@@ -100,4 +100,15 @@ input[type="button"]:hover{
     }
 }
 
+@media(max-width:575px){
+    html{
+        font-size: 15px;
+    }
+
+    #sign-up{
+        padding:2rem 0.5rem;
+    }
+
+}
+
 
