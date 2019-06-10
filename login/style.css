@@ -93,10 +93,11 @@ input[type="button"]:hover{
     html{
         font-size: 7px;
     }
-}
 
-@media(max-width:400px){
-    html{
-        font-size: 6px;
+    .row{
+        padding: 4rem;
+        
     }
 }
+
+
