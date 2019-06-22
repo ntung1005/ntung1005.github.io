@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>My Books List</title>
+</head>
+
+<body>
+    <h1>My Books List</h1>
+    <script>
+        bookArr = [{
+                title: 'The Design of EveryDay Things',
+                author: 'Don Norman',
+                thumbnail: 'https://upload.wikimedia.org/wikipedia/en/3/33/The_Design_of_Everyday_Things_%28cover_1988%29.jpg',
+                alreadyRead: false
+            },
+
+            {
+                title: 'The Most Human Human',
+                author: 'Brian Christian',
+                thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51aKPFuUy1L._SX324_BO1,204,203,200_.jpg',
+                alreadyRead: true
+            },
+
+        ];
+
+
+
+        for (i = 0; i < bookArr.length; i++) {
+            var iDiv = document.createElement('div');
+            iDiv.id = `div${i}`
+            document.getElementsByTagName('body')[0].appendChild(iDiv);
+            iDiv.innerHTML =
+                `<h1>${bookArr[i].title}</h1> <p>${bookArr[i].author}</p><img src="${bookArr[i].thumbnail}" alt="book">`;
+
+            if (bookArr[i].alreadyRead === true) {
+                document.getElementById(`div${i}`).style.color = "red";
+            }
+            if (bookArr[i].alreadyRead === false) {
+                document.getElementById(`div${i}`).style.color = "green";
+            }
+        }
+        
+    </script>
+</body>
+
+</html>

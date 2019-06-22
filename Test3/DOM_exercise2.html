@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>About Me</title>
+</head>
+
+<body id="body">
+    <h1>About Me</h1>
+
+    <ul>
+        <li>Nickname: <span id="nickname"></span></li>
+        <li>Favorites: <span id="favorites"></span></li>
+        <li>Hometown: <span id="hometown"></span></li>
+    </ul>
+
+</body>
+
+<script>
+    var a = document.getElementsByTagName("body");
+    for (let i = 0; i < a.length; i++) {
+        a[i].style.fontFamily = "Arial, sans-serif";
+    }
+
+
+    var b = document.getElementsByTagName("li");
+    for (let i = 0; i < b.length; i++) {
+        b[0].innerText = "Tùng ";
+        b[1].innerText = "Sinh Viên ";
+        b[2].innerText = "Hà Nội ";
+    }
+
+    // thêm class vào thẻ li
+    var b = document.getElementsByTagName("li");
+    for (let i = 0; i < b.length; i++) {
+        b[i].classList.add("listitem");
+    }
+
+    var c = document.getElementsByClassName("listitem")
+    for (let i = 0; i < c.length; i++) {
+        c[i].style.color = "red";
+    }
+
+    var image = document.createElement("img");
+    var imageParent = document.getElementById("body");
+    image.id = "id";
+    image.style.maxWidth=300+'px';
+    image.className = "class";
+    image.src = "https://scontent.fhan4-1.fna.fbcdn.net/v/t1.0-9/30582274_2100905423473607_6078313136924917760_n.jpg?_nc_cat=104&_nc_oc=AQljPjd7m-kc5VR8k0LeZg1nrUmZI3FO_PdajXKaEHWNLa9H2sQXTI6CXjt7LvIECuk&_nc_ht=scontent.fhan4-1.fna&oh=301b00f8f735597a8493b310ee2a2439&oe=5D8F15D7"
+    imageParent.appendChild(image);
+
+
+
+   
+</script>
+
+</html>
