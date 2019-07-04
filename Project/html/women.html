@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/men.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="shortcut icon" type="image/png" href="../img/logo2.png" />
+    <title>FindShoe-Giày Nữ</title>
+</head>
+
+<body>
+    <div id="header">
+        <div id="a">
+            <p>Chào Mừng Bạn đến Với FindShoes</p>
+        </div>
+
+        <div id="b">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="../img/logo2.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#b_1"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="b_1">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Bài Viết</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="call.html">Liên Hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giỏ Hàng</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0" style="position:relative;">
+                        <input class="form-control ml-auto" type="search" placeholder="Search">
+                        <span class="fas fa-search" style="position:absolute;top:0.7rem;right:0.5rem"></span>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+        <div id="c">
+            <div id="menu">
+                <ul>
+                    <li><a href="men.html">Giày Nam</a></li>
+                    <li><a href="women.html" style="text-decoration:underline;color:#D32626">Giày Nữ </a></li>
+                    <li><a href="sale.html">Khuyến Mãi</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="d">
+            <div id="banner">
+                <img src="../img/banner3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="main" style="position:relative">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Trang Chủ</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Giày Nữ</li>
+            </ol>
+        </nav>
+        <div class="row" style="margin:3rem 0">
+            <div id="main_1" class="col-3">
+                <div id="sp" class="filter">
+                    <h5>Danh mục sản phẩm</h5>
+
+                    <ul>
+                        <li><a href="men.html">Giày Nam</a></li>
+                        <li><a href="women.html" style="color: #D32626">Giày Nữ</a></li>
+                        <li><a href="sale.html">Khuyến Mãi</a></li>
+                    </ul>
+                </div>
+
+                <div id="price_filter" class="filter">
+                    <h5>Lọc Theo Giá</h5>
+                    <select name="price-filter" id="">
+                        <option value="">Lọc Theo Giá</option>
+                        <option value="">100.000đ-200.000đ</option>
+                        <option value="">200.000đ-500.000đ</option>
+                    </select>
+                </div>
+
+                <div id="firm_filter" class="filter">
+                    <h5>Lọc Theo Hãng</h5>
+                    <form action="">
+                        <label class="container">Nike
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Adidas
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Khác
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+
+                    </form>
+                </div>
+
+                <div id="button_search">
+                    <button type="button" class="btn btn-danger">Tìm Kiếm</button>
+                </div>
+
+            </div>
+            <div id="main_2" class="col-9">
+                <div id="sort">
+                    <select name="sort" id="">
+                        <option value="">Sắp Xếp</option>
+                        <option value="">Giá:Thấp Đến Cao</option>
+                        <option value="">Giá:Cao Đến Thấp</option>
+                    </select>
+                </div>
+                <div id="item" class="row"></div>
+                <div id="other_item" class="row"></div>
+                <div style="text-align: center;margin: 3rem 0">
+                    <button onclick="loadImages()" id="e" style="width:10rem;height:2.5rem;border:2px solid black;">Xem
+                        Thêm</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footer_1">
+            <h3>Đăng Kí Để Nhận Khuyến Mãi</h3>
+            <div id="input" class="ml-auto">
+                <form action="">
+                    <input type="text" placeholder="Nhập Email Của Bạn">
+                    <a href="#" class="fas fa-paper-plane"></a>
+                </form>
+            </div>
+        </div>
+
+        <div id="footer_2" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="../img/logo2.png" alt="">
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>ĐẶT HÀNG </li>
+                        <li>Đặt hàng thế nào ?</li>
+                        <li>Thông tin giao hàng </li>
+                        <li>Trả lại và trao đổi</li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <ul>
+                        <li>ĐẶT HÀNG </li>
+                        <li>Đặt hàng thế nào ?</li>
+                        <li>Thông tin giao hàng </li>
+                        <li>Trả lại và trao đổi</li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <ul>
+                        <li>ĐẶT HÀNG </li>
+                        <li>Đặt hàng thế nào ?</li>
+                        <li>Thông tin giao hàng </li>
+                        <li>Trả lại và trao đổi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_3">
+            <div class="container">
+                <a href="#" class="fas fa-phone"> Liên Hệ : 0978032402</a>
+
+                <div id="a" style="float: right;">
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-twitter-square"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-youtube-square"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/men.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</body>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+/* Choose Size */
+.choose_size {
+    display: block;
+    position: relative;
+    padding:0 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+   
+}
+
+.choose_size input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    padding: 1rem;
+    background-color: #eee;
+    border-radius: 10px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.choose_size:hover input~.checkmark {
+    border: 1px solid black;
+}
+
+.choose_size input:checked~.checkmark {
+    background-color: black;
+    color: white;
+}
+
+/*  */
+
+
+
+
+#main .col-2 div {
+    float: right;
+}
+
+#main .col-2,
+button {
+    padding: 0;
+}
+
+#main .col-2 button img {
+    float: right;
+}
+
+
+#choose_size #choose_area{
+    width: 100%;
+}
+
+
+/*  */
+
+#choose_amounts{
+    font-size: 2rem;
+
+}
+#choose_amounts .span{
+    display:block;
+    width:7rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    background:#eee;
+    
+    border: 1px solid black;
+}
+
+#down,#up{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+.choose #mua{
+    padding: 0.5rem 3rem;
+    background: #CE2A2A;
+    color: white;
+    border: none;
+    font-weight:800;
+    font-size: 1.5rem;
+    
+}
+
+.choose #mua:hover{
+    background: white;
+    color: #CE2A2A;
+    border: 3px solid #CE2A2A;
+    transition: 0.5s;
+}
+
+.choose{
+    margin: 2rem 0;
+}
+
+
+
+
+
+
+
+
