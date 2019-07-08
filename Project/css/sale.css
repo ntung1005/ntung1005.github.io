@@ -1,6 +1,10 @@
 /* Main */
 
+#main {
+    width: 100%;
+    padding: 3rem;
 
+}
 
 #main #main_1 h3 {
     text-align: center;

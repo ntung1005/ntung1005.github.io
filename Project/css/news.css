@@ -1,19 +1,25 @@
-#main #image{
-        max-height:15rem ;
+#main {
+        width: 100%;
+        padding: 3rem;
+
+}
+
+#main #image {
+        max-height: 15rem;
         overflow: hidden;
 }
 
-#main #image1{
-        max-height:10rem ;
+#main #image1 {
+        max-height: 10rem;
         overflow: hidden;
 }
 
-#main p{
+#main p {
         border-bottom: 1px solid grey;
-        
+
         padding-bottom: 1rem;
 }
 
-#main .a{
+#main .a {
         margin-bottom: 1rem;
 }

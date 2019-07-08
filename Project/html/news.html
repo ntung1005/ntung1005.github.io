@@ -15,8 +15,8 @@
 
     <link rel="stylesheet" href="../css/news.css">
     <link rel="stylesheet" href="../css/style.css">
-    
-    <link rel="shortcut icon" type="image/png" href="../img/logo2.png"/>
+
+    <link rel="shortcut icon" type="image/png" href="../img/logo2.png" />
     <title>FindShoe-Tin Tức</title>
 </head>
 
@@ -35,6 +35,23 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="b_1">
+
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0" id="danhmuc">
+                        <li class="nav-item">
+                            <a class="nav-link" href="men.html">Giày Nam</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="women.html">Giày Nữ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="sale.html">Khuyến Mãi</a>
+                        </li>
+
+
+                    </ul>
+
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="news.html">Bài Viết</a>
@@ -43,13 +60,16 @@
                             <a class="nav-link" href="call.html">Liên Hệ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Giỏ Hàng</a>
+                            <a class="nav-link" href="#">Giỏ Hàng</a>
                         </li>
+
                     </ul>
+
                     <form class="form-inline my-2 my-lg-0" style="position:relative;">
                         <input class="form-control ml-auto" type="search" placeholder="Search">
                         <span class="fas fa-search" style="position:absolute;top:0.7rem;right:0.5rem"></span>
                     </form>
+
                 </div>
             </nav>
         </div>
@@ -65,18 +85,22 @@
         </div>
 
         <div id="d">
-            <div id="banner" style="position:relative;">
+            <div id="banner">
                 <img src="../img/tin tức.jpg" alt="">
-                <div style="width:100%;text-align:center;position:absolute;top:30%;color: white;">
-                    <p style="font-size:5rem">Bài Viết</p>
-                    <p>Trang Chủ > Bài Viết</p>
-                </div>
             </div>
         </div>
     </div>
 
 
     <div id="main">
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Trang Chủ</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Tin Tức</li>
+            </ol>
+        </nav>
+
         <h3 style="text-align: center;text-decoration:underline;">Tin Tức Mới</h3>
         <div class="container">
             <div class="row news_1" id="news_1">
@@ -102,7 +126,7 @@
             <div id="other_item" class="row"></div>
         </div>
 
-        
+
         <div style="text-align: center;margin: 3rem 0">
             <button onclick="loadImages()" id="e" style="width:10rem;height:2.5rem;border:2px solid black;">Xem
                 Thêm</button>

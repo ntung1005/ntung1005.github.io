@@ -67,6 +67,9 @@
     transform: rotate(45deg);
 }
 
+
+
+
 .card {
     border: none;
     margin: 1rem 0;
@@ -76,8 +79,12 @@
     padding: 0 0 0.5rem 0;
 }
 
+/* Main */
+
 #main {
+    width: 100%;
     padding: 3rem;
+
 }
 
 
