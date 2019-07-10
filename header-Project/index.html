@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="header">
+        <div id="a">
+            <p>Chào Mừng Bạn đến Với FindShoes</p>
+        </div>
+
+        <div id="b">
+
+            <!-- resposive -->
+            <div id="b_b">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a class="navbar-brand" href="#">Hidden brand</a>
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0" style="position:relative;">
+                            <input class="form-control" type="search" placeholder="Search" style="padding-left:2rem">
+                            <span class="fas fa-search"
+                                style="position:absolute;top:50%;transform:translateY(-50%);left:0.5rem"></span>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+
+            <div id="b_b_1">
+                <i class="fas fa-user" onclick="login()" style="cursor: pointer"></i>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <!--  -->
+
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="img Project/logo2.png" alt=""></a>
+
+                <div class="collapse navbar-collapse" id="b_1">
+
+
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Bài Viết</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="call.html">Liên Hệ</a>
+                        </li>
+
+                        <li class="nav-item"  onclick="login()" style="cursor: pointer">
+                            <a class="nav-link"><i class="fas fa-user"></i>Đăng Nhập</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i>Giỏ Hàng</a>
+                        </li>
+
+                    </ul>
+
+                    <form class="form-inline my-2 my-lg-0" style="position:relative;">
+                        <input class="form-control ml-auto" type="search" placeholder="Search">
+                        <span class="fas fa-search"
+                            style="position:absolute;top:50%;transform:translateY(-50%);right:0.5rem"></span>
+                    </form>
+
+                </div>
+            </nav>
+        </div>
+
+        <div id="c">
+            <div id="menu">
+                <ul>
+                    <li><a href="men.html">Giày Nam</a></li>
+                    <li><a href="women.html">Giày Nữ </a></li>
+                    <li><a href="sale.html">Khuyến Mãi</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="d">
+            <div id="banner">
+                <img src="img Project/banner (1).jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="login-page" id="login-page">
+            <div class="form">
+                <form action="" class="register-form">
+                    <input type="text" placeholder="Tên">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Mật Khẩu">
+                    <input type="text" placeholder="Địa Chỉ">
+                    <button>ĐĂng Kí</button>
+    
+                    <p class="message"><a href="#">Đăng Nhập</a></p>
+                </form>
+    
+                <form action="" class="login-form">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Password">
+                    <button>Đăng Nhập</button>
+                    <p class="message">Quên Mật Khẩu<br><a href="#">Đăng Kí</a></p>
+                </form>
+    
+                <span class="fas fa-times" id="close" onclick="off()"></span>
+            </div>
+    
+            
+        </div>
+    </div>
+
+    <div id="fullscreen" onclick="off()"></div>
+    <button onclick="login()">Đăng Nhập</button>
+
+
+    
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+
+<script src='https://code.jquery.com/jquery-3.4.1.min.js
+'> </script>
+<script src="header.js"></script>
+
+</html>

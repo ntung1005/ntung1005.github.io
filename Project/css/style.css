@@ -39,8 +39,21 @@ body {
     }
 }
 
+@media(max-width:575.9px) {
+
+    #sanpham{
+        padding: 0 12%;
+    }
+
+}
 
 
+
+
+.row{
+    margin-right:0px;
+    margin-left:0px;
+}
 
 
 
@@ -60,7 +73,7 @@ body {
 #header #a {
     text-align: center;
     height: 2.7rem;
-    background: rgba(216, 109, 109, 27%);
+    background: rgba(216, 109, 109, 50%);
     padding-top: 0.5rem;
 
 }
@@ -147,20 +160,17 @@ img {
 
 #header #c #menu {
 
-    width: 35rem;
-    margin: 0 auto;
 }
 
 #header #c #menu ul {
     display: flex;
-    text-align: center;
+    justify-content: center;
 }
 
 #header #c #menu ul li {
     list-style: none;
     display: inline-block;
-    width: 33%;
-
+    margin:0 3rem;
 }
 
 #header #c #menu ul li a {

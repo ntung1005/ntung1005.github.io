@@ -1,15 +1,16 @@
 let a = '';
 for (i = 1; i <= 8; i++) {
 
-    a += `<div class=" col-md-3 col-sm-6">
+    a += `<div class="col-lg-4 col-md-6" id="sanpham">
     <div class="product">
         <div class="imgbox">
             <img src="../img/sản phẩm ${i}.jpg" alt="">
 
             <div class="details">
 
-                <a href="">Thêm Vào Giỏ</a>
-                <a href="">Mua Ngay</a>
+                <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+                <a href=""><i class="fas fa-search-plus"></i></a>
+                <a href="item.html">Mua Ngay</a>
             </div>
         </div>
 
@@ -31,14 +32,15 @@ document.getElementById('item').innerHTML = a;
 let gallery = '';
 for (i = 1; i <= 8; i++) {
 
-    gallery += `<div class=" col-md-3 col-sm-6">
+    gallery += `<div class="col-lg-4 col-md-6" id="sanpham">
     <div class="product">
         <div class="imgbox">
             <img src="../img/sản phẩm ${i}.jpg" alt="">
 
             <div class="details">
 
-                <a href="item.html">Thêm Vào Giỏ</a>
+                <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+                <a href=""><i class="fas fa-search-plus"></i></a>
                 <a href="item.html">Mua Ngay</a>
             </div>
         </div>
