@@ -332,7 +332,9 @@ html {
 
 #footer #footer_2 #footer_2_2 {}
 
-#footer #footer_2 #footer_2_2 ul {}
+#footer #footer_2 #footer_2_2 ul {
+    padding: 0;
+}
 
 #footer #footer_2 #footer_2_2 ul li {
     color: white;
