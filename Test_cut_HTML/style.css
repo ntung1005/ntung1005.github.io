@@ -395,6 +395,12 @@ html {
         max-height: 40px;
     }
 
+    #main #main_1 {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
     #main_4 {
         text-align: center;
     }
@@ -413,6 +419,7 @@ html {
 
     #footer #footer_2 #footer_2_1{
         margin: auto;
+        max-width: 100%;
     }
 
     #footer #footer_3 ul{
@@ -425,4 +432,6 @@ html {
     #footer #footer_3 p {
         text-align: center;
     }
+
+    #
 }
