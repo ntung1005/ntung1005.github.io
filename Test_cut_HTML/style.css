@@ -70,6 +70,11 @@ html {
 
 #header #header_3_1 .p-2 {
     border-bottom: 2px solid transparent;
+
+}
+
+#header #header_3_1 .p-2:hover {
+    border-bottom: 2px solid white;
 }
 
 #header #header_3_1 .active {
@@ -344,7 +349,7 @@ html {
 }
 
 #footer #footer_3 ul li {
-    margin:0 0.5rem;
+    margin: 0 0.5rem;
     color: white;
 }
 
@@ -367,7 +372,7 @@ html {
 
 @media(max-width:992px) {
 
-    #header #header_1{
+    #header #header_1 {
         padding: 0;
     }
 
@@ -413,25 +418,43 @@ html {
         border: none;
     }
 
-    #footer #footer_2{
+    #footer #footer_2 {
         text-align: center;
     }
 
-    #footer #footer_2 #footer_2_1{
+    #footer #footer_2 #footer_2_1 {
         margin: auto;
         max-width: 100%;
     }
 
-    #footer #footer_3 ul{
-        justify-content: center;
+    #footer #footer_2 #footer_2_2 ul{
+        padding: 0;
     }
 
-    
+    #footer #footer_3 ul {
+        justify-content: center;
+        padding: 0;
+    }
 
-    
     #footer #footer_3 p {
         text-align: center;
     }
-
-    #
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
