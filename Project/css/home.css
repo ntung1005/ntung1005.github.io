@@ -128,10 +128,15 @@
     margin: 3rem 0;
 }
 
+#main_6 img{
+    width:100%;
+}
+
 #main_6 #main_6_1 {
     width: 100%;
     position: absolute;
-    top: 30%;
+    top: 50%;
+    transform: translateY(-50%);
     text-align: center;
 
 }
