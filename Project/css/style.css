@@ -290,7 +290,7 @@ li {
 #input_search {
     width: 100%;
     position: absolute;
-    bottom: -40px;
+    bottom: -60px;
     left: 0;
     display: none;
     z-index: 1001;
@@ -311,7 +311,7 @@ li {
 
 #input_search form input {
     width: 100%;
-    height: 40px;
+    height: 60px;
     font-size: 16px;
     padding: 10px 40px;
 
@@ -363,7 +363,7 @@ li {
 
 
 
-/*-----------------------------------------*/
+/*---------------MENU-HEader---------------*/
 
 #header #b .menu {
     position: absolute;
@@ -398,8 +398,14 @@ li {
 
 #header #b .menu ul {
     background: #4284c9;
-    
+    font-size: 18px;
 }
+
+#header #b .menu ul #ul_1{
+    background:#000000d1;
+}
+
+
 
 #header #b .menu a {
     display: block;
