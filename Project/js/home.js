@@ -30,7 +30,7 @@ document.getElementById('hotitem').innerHTML = a;
 
 let b = '';
 for (i = 0; i < 3; i++) {
-    b += `<div id="comment" class="col-md-4" style="padding: 1.2rem">
+    b += `<div id="comment" class="col-sm-4" style="padding: 1.2rem">
   <div id="comment_1" style="width:5rem; left:50%; transform: translate(-50%)">
       <img src="../img/chandung.png" alt="">
   </div>

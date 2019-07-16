@@ -249,8 +249,9 @@
                 <li class="breadcrumb-item active" aria-current="page">Giày Nam</li>
             </ol>
         </nav>
+
         <div class="row" style="margin:3rem 0;">
-            <div id="main_1" class="col-3">
+            <div id="main_1" class="col-md-3">
 
                 <div id="sp" class="filter">
                     <h5>Danh mục sản phẩm</h5>
@@ -262,40 +263,52 @@
                     </ul>
                 </div>
 
-                <div id="price_filter" class="filter">
-                    <h5>Lọc Theo Giá</h5>
-                    <select name="price-filter" id="">
-                        <option value="">Lọc Theo Giá</option>
-                        <option value="">100.000đ-200.000đ</option>
-                        <option value="">200.000đ-500.000đ</option>
-                    </select>
+                <div id="menu_filter">
+                    <ul>
+
+                        <li>
+                            <div id="click">
+                                <p href="">Lọc Theo Giá</p>
+                                <a class="click_1">+</a>
+                            </div>
+
+                            <ul id="con">
+
+                                <label for="c">
+                                    <li><input type="checkbox" name="" id="c">sp1</li>
+                                </label>
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <div id="click">
+                                <p href="">Lọc Theo Hãng</p>
+                                <a class="click_1">+</a>
+                            </div>
+
+                            <ul id="con">
+
+                                <label for="x">
+                                    <li><input type="checkbox" name="" id="x">sp1</li>
+                                </label>
+
+                                <label for="d">
+                                    <li><input type="checkbox" name="" id="d">sp1</li>
+                                </label>
+                            </ul>
+                        </li>
+
+                    </ul>
                 </div>
 
-                <div id="firm_filter" class="filter">
-                    <h5>Lọc Theo Hãng</h5>
-                    <form action="">
-                        <label class="container">Nike
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
-                        <label class="container">Adidas
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
-                        <label class="container">Khác
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
-
-                    </form>
-                </div>
-
-                <div id="button_search">
-                    <button type="button" class="btn btn-danger">Tìm Kiếm</button>
-                </div>
 
             </div>
-            <div id="main_2" class="col-9">
+
+
+
+
+            <div id="main_2" class="col-md-9">
                 <div id="sort">
                     <select name="sort" id="">
                         <option value="">Sắp Xếp</option>
@@ -319,9 +332,9 @@
     </div>
 
     <div id="footer">
-        <div id="footer_1">
-            <h3>Đăng Kí Để Nhận Khuyến Mãi</h3>
-            <div id="input" class="ml-auto">
+        <div id="footer_1" class="row">
+            <h3 class="col-md-6">Đăng Kí Để Nhận Khuyến Mãi</h3>
+            <div id="input" class="ml-auto col-md-6">
                 <form action="">
                     <input type="text" placeholder="Nhập Email Của Bạn">
                     <a href="#" class="fas fa-paper-plane"></a>
@@ -331,10 +344,10 @@
 
         <div id="footer_2" class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-sm-3">
                     <img src="../img/logo2.png" alt="">
                 </div>
-                <div class="col">
+                <div class="col-sm-3">
                     <ul>
                         <li>ĐẶT HÀNG </li>
                         <li>Đặt hàng thế nào ?</li>
@@ -343,7 +356,7 @@
                     </ul>
                 </div>
 
-                <div class="col">
+                <div class="col-sm-3">
                     <ul>
                         <li>ĐẶT HÀNG </li>
                         <li>Đặt hàng thế nào ?</li>
@@ -352,7 +365,7 @@
                     </ul>
                 </div>
 
-                <div class="col">
+                <div class="col-sm-3">
                     <ul>
                         <li>ĐẶT HÀNG </li>
                         <li>Đặt hàng thế nào ?</li>
@@ -376,22 +389,20 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
-    <script src="../js/men.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <script src='https://code.jquery.com/jquery-3.4.1.min.js
-    '> </script>
+    <script src="../js/men.js"></script>
     <script src="../js/header_footer.js"></script>
+
 
 </body>
 </body>
+
 
 </html>

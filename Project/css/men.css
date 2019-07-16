@@ -3,69 +3,7 @@
 }
 
 /* Check Box */
-/* The container */
-#firm_filter .container {
-    display: block;
-    position: relative;
-    padding-left: 1.75rem;
-    margin-bottom: 0.6rem;
-    cursor: pointer;
-    font-size: 1rem;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
 
-/* Hide the browser's default checkbox */
-#firm_filter .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
-
-/* Create a custom checkbox */
-#firm_filter .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 1.2rem;
-    width: 1.2rem;
-    background-color: #eee;
-}
-
-/* On mouse-over, add a grey background color */
-#firm_filter .container:hover input~.checkmark {
-    background-color: #ccc;
-}
-
-
-/* Create the checkmark/indicator (hidden when not checked) */
-#firm_filter .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* Show the checkmark when checked */
-#firm_filter .container input:checked~.checkmark:after {
-    display: block;
-}
-
-/* Style the checkmark/indicator */
-#firm_filter .container .checkmark:after {
-    left: 0.5rem;
-    top: 0.25rem;
-    width: 0.25rem;
-    height: 0.5rem;
-    border: solid red;
-    border-width: 0 0.2rem 0.2rem 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
 
 
 
@@ -107,3 +45,63 @@
     color: black;
 }
 
+
+
+
+
+
+
+
+/*  */
+
+
+
+li{
+    list-style: none;
+}
+
+#menu_filter {}
+
+#menu_filter> ul>li{
+    margin: 1rem 0;
+}
+
+#menu_filter #click{
+    width: 200px;
+    background: red;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#menu_filter #click p{
+    color: white;
+    margin: 0;
+}
+
+#menu_filter #click .click_1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: white;
+}
+
+
+#menu_filter #con{
+    padding: 0;
+
+    background: grey;
+    width: 200px;
+    display: none;
+}
+
+#menu_filter #con label{
+    margin: 0;
+}
+
+#menu_filter #con li{
+    width: 200px;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+}

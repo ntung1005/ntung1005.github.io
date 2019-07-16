@@ -60,3 +60,38 @@ function loadImages() {
 
     $("#e").remove();
 }
+
+
+
+
+
+
+
+
+
+
+// Filter Menu
+
+
+$("#menu_filter #click").click(function () {
+    if (
+        $(this)
+        .next("#con")
+        .css("display") === "none"
+    ) {
+        $(this)
+            .next("#con")
+            .slideDown();
+
+        $(this)
+            .children(".click_1")
+            .html("-");
+    } else {
+        $(this)
+            .next("#con")
+            .slideUp();
+        $(this)
+            .children(".click_1")
+            .html("+");
+    }
+});
