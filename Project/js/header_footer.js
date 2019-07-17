@@ -18,6 +18,8 @@ window.onscroll=function(){
         nav.style.top=0;
         nav.style.zIndex=1000;
         nav.style.background="#ce2a2a";
+        
+
 
     }
 
@@ -25,6 +27,7 @@ window.onscroll=function(){
         nav.style.position="relative";
         nav.style.zIndex="unset";
         nav.style.background="";
+
     }
 }
 

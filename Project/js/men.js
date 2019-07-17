@@ -9,7 +9,7 @@ for (i = 1; i <= 8; i++) {
             <div class="details">
 
                 <a href=""><i class="fas fa-cart-arrow-down"></i></a>
-                <a href=""><i class="fas fa-search-plus"></i></a>
+                <a data-toggle="modal" data-target="#exampleModal"><i class="fas fa-search-plus"></i> </a>
                 <a href="item.html">Mua Ngay</a>
             </div>
         </div>
@@ -40,7 +40,7 @@ for (i = 1; i <= 8; i++) {
             <div class="details">
 
                 <a href=""><i class="fas fa-cart-arrow-down"></i></a>
-                <a href=""><i class="fas fa-search-plus"></i></a>
+                <a data-toggle="modal" data-target="#exampleModal"><i class="fas fa-search-plus"></i> </a>
                 <a href="item.html">Mua Ngay</a>
             </div>
         </div>

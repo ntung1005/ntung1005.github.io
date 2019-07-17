@@ -61,7 +61,7 @@
                                 </form>
                             </li>
                             <li><i onclick="login()" class="fas fa-user"></i></li>
-                            <li><i class="fas fa-shopping-bag"></i></li>
+                            <li> <a href="cart.html"> <i class="fas fa-shopping-bag"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
 
                     <div id="b_2_2">
                         <button onclick="search_responsive()"><span class="fas fa-search"></span></button>
-                        <button><span class="fas fa-shopping-bag"></span></button>
+                        <a href="cart.html"> <button><span class="fas fa-shopping-bag"></span></button></a>
 
                     </div>
 
@@ -339,6 +339,31 @@
         </div>
     </div>
 
+
+   <!--Xem Chi Tiết sản phẩm  -->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Chi Tiết Sản Phẩm</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Đây Là Phần Chi Tiết Sản Phẩm
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+
+
     <div id="footer">
         <div id="footer_1" class="row">
             <h3 class="col-md-6">Đăng Kí Để Nhận Khuyến Mãi</h3>
@@ -397,6 +422,7 @@
             </div>
         </div>
     </div>
+
 
     <div id="backtotop">
         <a href="#header"><span class="fas fa-caret-up"></span></a>

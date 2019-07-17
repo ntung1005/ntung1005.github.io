@@ -47,16 +47,22 @@
     float: right;
 }
 
-#main .col-2
-button {
+#main #main_1 #main_1_1 .col-3{
     padding: 0;
+}
+
+#main #main_1 #main_1_1 button{
+
+    
     background: none;
     border: none;
 }
 
-#main .col-2 button img {
-    float: right;
+.choose button{
+    padding: 0;
+    border: 0;
 }
+
 
 
 #choose_size #choose_area{
@@ -79,7 +85,7 @@ button {
     font-size:18px;
     padding:5px 10px;
     font-weight:bold;
-    color:blue;
+    color:#CE2A2A;
 }
 
 

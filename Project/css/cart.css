@@ -1,0 +1,31 @@
+#main{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#main  #main_1{
+    text-align: center;
+}
+
+#main  #main_1 img{
+    max-width: 400px;
+}
+
+#main  #main_1 p{
+    font-size: 30px;
+    margin: 2rem 0;
+}
+
+#main  #main_1 button{
+    border: 3px solid rgba(206, 42, 42, 0.85);
+    background: rgba(206, 42, 42, 0.85);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+#main  #main_1 button:hover{
+    border: 3px solid rgba(206, 42, 42, 0.85);
+    background: white;
+    color: rgba(206, 42, 42, 0.85);
+    transition: 1s;
+}

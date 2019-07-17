@@ -12,12 +12,13 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/card_hover.css">
-    <link rel="stylesheet" href="../css/sale.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/cart.css">
     <link rel="stylesheet" href="../css/style.css">
 
     <link rel="shortcut icon" type="image/png" href="../img/logo2.png" />
-    <title>FindShoe-Khuyến Mãi</title>
+    <title>FindShoe-Giỏ Hàng</title>
 </head>
 
 <body>
@@ -47,8 +48,8 @@
                     <div class="col-4" id="header_21b">
                         <ul>
                             <li><a href="men.html">Giày Nam</a></li>
-                            <li><a href="men.html">Giày Nữ</a></li>
-                            <li class="active"><a href="sale.html">Khuyến Mãi</a></li>
+                            <li><a href="women.html">Giày Nữ</a></li>
+                            <li><a href="sale.html">Khuyến Mãi</a></li>
                         </ul>
                     </div>
 
@@ -60,7 +61,7 @@
                                     <span class="fas fa-search"></span>
                                 </form>
                             </li>
-                            <li onclick="login()"><i class="fas fa-user"></i></li>
+                            <li><i onclick="login()" class="fas fa-user"></i></li>
                             <li> <a href="cart.html"> <i class="fas fa-shopping-bag"></i></a></li>
                         </ul>
                     </div>
@@ -90,7 +91,7 @@
 
             <div id="header_4">
                 <div id="banner">
-                    <img src="../img/banner(2).jpg" alt="">
+
                 </div>
             </div>
         </div>
@@ -118,7 +119,7 @@
 
 
                                 <a href="men.html">
-                                    <li>Giày Nam</li>
+                                    <li> Giày Nam</li>
                                 </a>
 
                                 <a href="women.html">
@@ -130,7 +131,7 @@
                                 </a>
                                 <div id="ul_1">
                                     <a href="#">
-                                        <li><i class="fas fa-user" onclick="login()"> Đăng Nhập</i></li>
+                                        <li onclick="login()"><i class="fas fa-user"> Đăng Nhập</i></li>
                                     </a>
                                     <a href="call.html">
                                         <li>Thông tin Shop</li>
@@ -200,7 +201,7 @@
 
             <div id="b_4">
                 <div id="banner">
-                    <img src="../img/banner(2).jpg" alt="">
+
                 </div>
             </div>
 
@@ -242,64 +243,15 @@
     </div>
 
 
-    <div id="main">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Trang Chủ</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Khuyến Mãi</li>
-            </ol>
-        </nav>
-        <div id="main_1" class="container">
-            <h3>Giá Hủy Diệt</h3>
-            <div id="newitem" class="row">
+    <div id="main" class="container">
+        <div id="main_1">
+            <img src="../img/sad.png" alt="">
+            <p>Giỏ Hàng Chưa Có Sản Phẩm Nào</p>
 
-            </div>
-        </div>
-
-
-
-        <div id="main_3" class="container">
-            <h3>Bão Sale</h3>
-            <div id="hotitem" class="row" >
-
-            </div>
-
-
-            <div id="other_item" class="row">
-
-            </div>
-            <div style="text-align: center;margin: 3rem 0">
-                <button onclick="load()" id="e" style="width:10rem;height:2.5rem;border:2px solid black;">Xem
-                    Thêm</button>
-            </div>
-        </div>
-
-
-    </div>
-
-
-
-       <!--Xem Chi Tiết sản phẩm  -->
-    
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Chi Tiết Sản Phẩm</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Đây Là Phần Chi Tiết Sản Phẩm
-                </div>
-                
-            </div>
+            <a href="index.html"><button>Tiếp Tục Mua Hàng</button></a>
         </div>
     </div>
-    <!--  -->
+
 
 
 
@@ -362,29 +314,11 @@
         </div>
     </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Chi Tiết Sản Phẩm</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Đây Là Phần Chi Tiết Sản Phẩm
-                </div>
-                
-            </div>
-        </div>
-    </div>
-
     <div id="backtotop">
         <a href="#header"><span class="fas fa-caret-up"></span></a> 
     </div>
-    
-    <script src="../js/sale.js"></script>
+
+    <script src="../js/cart.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
@@ -397,8 +331,7 @@
     <script src='https://code.jquery.com/jquery-3.4.1.min.js
     '> </script>
     <script src="../js/header_footer.js"></script>
+</body>
 
-</body>
-</body>
 
 </html>
