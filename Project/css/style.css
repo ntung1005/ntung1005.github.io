@@ -380,12 +380,12 @@ li {
 }
 
 #header #b .menu ul {
-    background: #4284c9;
+    background: #ad222f;
     font-size: 18px;
 }
 
 #header #b .menu ul #ul_1 {
-    background: #000000d1;
+    background: #3e1212;
 }
 
 
@@ -394,6 +394,7 @@ li {
     display: block;
     padding: 15px 0;
     border-bottom: 1px solid #C3AA6E;
+    border-top: 1px solid #C3AA6E;
     color: #F0EADC;
     text-transform: uppercase;
 }
@@ -598,6 +599,11 @@ li {
 #footer #footer_3 #a a:hover {
     color: blue;
 }
+
+
+
+
+
 
 
 
