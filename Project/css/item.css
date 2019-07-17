@@ -47,9 +47,11 @@
     float: right;
 }
 
-#main .col-2,
+#main .col-2
 button {
     padding: 0;
+    background: none;
+    border: none;
 }
 
 #main .col-2 button img {
@@ -65,25 +67,22 @@ button {
 /*  */
 
 #choose_amounts{
-    font-size: 2rem;
-
-}
-#choose_amounts .span{
-    display:block;
-    width:7rem;
-    height: 2.5rem;
-    text-align: center;
-    line-height: 2.5rem;
-    background:#eee;
     
-    border: 1px solid black;
+
 }
 
-#down,#up{
-    position: absolute;
-    top: 15%;
-    right: 5%;
+#choose_amounts input[type="text"]{
+    max-width:70px;
 }
+
+#choose_amounts input[type="text"],button {
+    font-size:18px;
+    padding:5px 10px;
+    font-weight:bold;
+    color:blue;
+}
+
+
 
 .choose #mua{
     padding: 0.5rem 3rem;
@@ -92,6 +91,7 @@ button {
     border: none;
     font-weight:800;
     font-size: 1.5rem;
+    border: 3px solid transparent;
     
 }
 

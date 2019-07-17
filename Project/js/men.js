@@ -1,7 +1,7 @@
 let a = '';
 for (i = 1; i <= 8; i++) {
 
-    a += `<div class="col-lg-4 col-md-6" id="sanpham">
+    a += `<div class="col-lg-4 col-sm-6" id="sanpham">
     <div class="product">
         <div class="imgbox">
             <img src="../img/sản phẩm ${i}.jpg" alt="">
@@ -32,7 +32,7 @@ document.getElementById('item').innerHTML = a;
 let gallery = '';
 for (i = 1; i <= 8; i++) {
 
-    gallery += `<div class="col-lg-4 col-md-6" id="sanpham">
+    gallery += `<div class="col-lg-4 col-sm-6" id="sanpham">
     <div class="product">
         <div class="imgbox">
             <img src="../img/sản phẩm ${i}.jpg" alt="">

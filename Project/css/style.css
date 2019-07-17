@@ -82,6 +82,10 @@ li {
     color: black;
 }
 
+#header #header_1 #header_11 #header_11b ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
 
 #header #header_2 {
     padding: 1rem 2rem;
@@ -416,6 +420,16 @@ li {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* Modal */
 
 * {
@@ -534,11 +548,13 @@ li {
 
 
 
+
+
 /* Footer */
 
 #footer #footer_1 {
     display: flex;
-    padding: 1.5rem 6rem;
+    padding: 1.5rem 2rem;
     background: rgba(235, 187, 63, 88%);
     text-align: center;
 }
@@ -564,8 +580,9 @@ li {
 
 #footer #footer_1 #input a {
     position: absolute;
-    top: 0.6rem;
-    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
 }
 
 
@@ -617,7 +634,7 @@ li {
     right: 2rem;;
 
     font-size: 30px;
-    padding:0.2rem 1rem;
+    padding:0.1rem 1rem;
     border-radius: 5px;
     background:rgba(248,18 , 18, 0.6);
 

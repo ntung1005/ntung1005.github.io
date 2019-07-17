@@ -69,9 +69,17 @@
     cursor: pointer;
 }
 
+.details a i{
+    color: white;
+}
+
 .details a:hover {
     color: #CE2A2A;
     background: white;
+}
+
+.details a:hover i{
+    color: #CE2A2A;
 }
 
 .product:hover .details {

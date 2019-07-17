@@ -29,3 +29,21 @@ document.getElementById('choose_area').innerHTML=choose_size;
 
 
 
+var input = document.getElementById("input"),
+    btn1  = document.getElementById("btn1"),
+    btn2  = document.getElementById("btn2");
+
+btn1.onclick = function () {
+    
+    input.value = +input.value + 1;
+    
+}
+
+btn2.onclick = function () {
+    
+    input.value = +input.value - 1;
+    if(input.value<=1){
+      input.value=1
+    }
+}
+
