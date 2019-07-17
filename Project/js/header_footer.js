@@ -1,3 +1,43 @@
+// Fix-Header
+
+let nav=document.getElementById('header_responsive');
+let backtotop=document.getElementById('backtotop');
+
+window.onscroll=function(){
+
+    if(window.pageYOffset>1000){
+        backtotop.style.display='block';
+    }
+    else{
+        backtotop.style.display='none';
+    }
+
+
+    if(window.pageYOffset>200){
+        nav.style.position="fixed";
+        nav.style.top=0;
+        nav.style.zIndex=1000;
+        nav.style.background="#ce2a2a";
+
+    }
+
+    else{
+        nav.style.position="relative";
+        nav.style.zIndex="unset";
+        nav.style.background="";
+    }
+}
+
+
+
+
+
+// 
+
+
+
+
+
 // Search 
 
 function search_responsive() {

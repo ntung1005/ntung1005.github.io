@@ -86,6 +86,7 @@ li {
 #header #header_2 {
     padding: 1rem 2rem;
     background: rgba(206, 42, 42, 0.85);
+    width: 100%;
 }
 
 #header #header_2 #header_21 {}
@@ -241,6 +242,7 @@ li {
 
 #header_responsive {
     background: rgba(206, 42, 42, 0.85);
+    width: 100%;
 }
 
 #b #b_2 {
@@ -344,6 +346,7 @@ li {
 
 
 /*---------------MENU-HEader---------------*/
+
 
 #header #b .menu {
     position: absolute;
@@ -595,6 +598,35 @@ li {
 #footer #footer_3 #a a:hover {
     color: blue;
 }
+
+
+
+
+
+
+
+#backtotop{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;;
+
+    font-size: 30px;
+    padding:0.2rem 1rem;
+    border-radius: 5px;
+    background:rgba(248,18 , 18, 0.6);
+
+    display: none;
+   
+}
+
+#backtotop a{
+    color: white;
+}
+
+
+
+
+
 
 
 
