@@ -66,22 +66,10 @@
     transform: translateX(-50%) translateY(-50%);
     background: rgba(196, 196, 196, 49%);
     border: 1px solid black;
-    width: 8rem;
-    height: 3rem;
+    padding: 0.5rem 2rem;
     font-size: 1.2rem;
     font-weight: 600;
     color: white;
-}
-
-#main #main_3 {
-    margin-top: 5rem;
-}
-
-@media(max-width:800px) {
-
-    #main #main_3 h3 {
-        font-size: 30px;
-    }
 }
 
 #main #main_2 button:hover {
@@ -97,6 +85,19 @@
     opacity: 0.8;
     transition: all 0.8s linear;
 }
+
+#main #main_3 {
+    margin-top: 5rem;
+}
+
+@media(max-width:800px) {
+
+    #main #main_3 h3 {
+        font-size: 30px;
+    }
+}
+
+
 
 #main_4,
 #main_5 {
@@ -150,7 +151,7 @@
     margin: 3rem 0;
     height: 500px;
     width: 100%;
-   
+
     background-image: url(../img/shop.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -160,7 +161,7 @@
 
 #main_6 img {
     width: 100%;
-    
+
 }
 
 #main_6 #main_6_1 {
@@ -172,11 +173,11 @@
 
 }
 
-#main_6 #main_6_1a{
+#main_6 #main_6_1a {
     width: 100%;
     height: 100%;
-    
-    background: rgba(0,0,0,0);
+
+    background: rgba(0, 0, 0, 0);
     transition: 1s;
 }
 
@@ -187,19 +188,19 @@
 
 }
 
-#main_6 #main_6_1 button {
+#main #main_6 #main_6_1 button {
     background: rgba(196, 196, 196, 49%);
-    border: 1px solid black;
+    border: 3px solid black;
     padding: 10px 15px;
     font-size: 24px;
     font-weight: 600;
     color: white;
-    border: 3px solid transparent;
+    
 }
 
-#main #main_6:hover >#main_6_1a{
-    background: rgba(0,0,0,0.5);
-    
+#main #main_6:hover>#main_6_1a {
+    background: rgba(0, 0, 0, 0.5);
+
 }
 
 #main #main_6 #main_6_1 button:hover {
@@ -222,32 +223,30 @@
 
 
 @media(max-width:801px) {
-    #main_6{
+    #main_6 {
         height: 300px;
     }
 
-    #main_6 #main_6_1 p{
+    #main_6 #main_6_1 p {
         font-size: 30px;
     }
-    
-#main_6 #main_6_1 button{
-    font-size: 22px;
-}
+
+    #main_6 #main_6_1 button {
+        font-size: 22px;
+    }
 }
 
 
 @media(max-width:768px) {
     #main #main_2 button {
-        width: 30%;
-        height: 15%;
-        font-size: 25px;
+        
+        font-size: 22px;
     }
 }
 
 @media(max-width:500px) {
     #main #main_2 button {
-        width: 30%;
-        height: 15%;
-        font-size: 15px;
+        
+        font-size: 18px;
     }
 }

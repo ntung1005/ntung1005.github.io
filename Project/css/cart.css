@@ -5,6 +5,9 @@
 
 #main  #main_1{
     text-align: center;
+    margin: 50px 0;
+    padding: 40px 0 80px 0;
+    border-bottom: 1px solid grey;
 }
 
 #main  #main_1 img{
