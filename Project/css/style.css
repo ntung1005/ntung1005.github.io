@@ -82,7 +82,7 @@ li {
     color: black;
 }
 
-#header #header_1 #header_11 #header_11b ul li a:hover{
+#header #header_1 #header_11 #header_11b ul li a:hover {
     color: white;
     text-decoration: underline;
 }
@@ -536,9 +536,75 @@ li {
 
 
 
-#main #carousel{
+
+
+
+/* MAin */
+
+
+
+#main #carousel {
     text-align: center;
 }
+
+
+
+
+/* Modal Chỉ Tiết Sản Phẩm */
+#modal p {
+    font-size: 16px;
+}
+
+#modal img {
+    width: 100%;
+}
+
+#modal button {
+    padding: 5px 15px;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#modal #btn1 {
+    background: white;
+    border: 2px solid #CE2A2A;
+    color: #CE2A2A;
+    transition: 0.7s;
+}
+
+#modal #btn1:hover {
+    background: black;
+    border: 2px solid black;
+    color: white;
+}
+
+
+#modal #btn2 {
+    background: #CE2A2A;
+    border: 2px solid #CE2A2A;
+    color: white;
+    transition: 0.7s;
+}
+
+#modal #btn2:hover {
+    background: black;
+    border: 2px solid black;
+    color: white;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 652px;
+        margin: 160px auto;
+    }
+}
+
+
+
+
+
+
+
 
 
 
@@ -601,10 +667,10 @@ li {
 #footer #footer_3 {
     background: rgba(196, 196, 196, 81%);
     padding: 0.7rem 0;
-    
+
 }
 
-#footer #footer_3 #a{
+#footer #footer_3 #a {
     text-align: right;
 }
 
@@ -635,21 +701,22 @@ li {
 
 
 
-#backtotop{
+#backtotop {
     position: fixed;
     bottom: 2rem;
-    right: 2rem;;
+    right: 2rem;
+    ;
 
     font-size: 30px;
-    padding:0.1rem 1rem;
+    padding: 0.1rem 1rem;
     border-radius: 5px;
-    background:rgba(248,18 , 18, 0.6);
+    background: rgba(248, 18, 18, 0.6);
 
     display: none;
-   
+
 }
 
-#backtotop a{
+#backtotop a {
     color: white;
 }
 
@@ -725,25 +792,25 @@ h5 {
         padding: 0 12%;
     }
 
-    #footer #footer_3{
-        text-align: center;  
-        
+    #footer #footer_3 {
+        text-align: center;
+
     }
 
-    #footer #footer_3 .col-sm-6{
+    #footer #footer_3 .col-sm-6 {
         margin: 10px;
     }
 
-    #footer #footer_3 a{
+    #footer #footer_3 a {
         font-size: 20px;
     }
 
-    #footer #footer_3 #a{
+    #footer #footer_3 #a {
         text-align: center;
-        
+
     }
 
-    #footer #footer_3 #a a{
+    #footer #footer_3 #a a {
         font-size: 20px;
     }
 
