@@ -536,7 +536,9 @@ li {
 
 
 
-
+#main #carousel{
+    text-align: center;
+}
 
 
 
@@ -599,6 +601,11 @@ li {
 #footer #footer_3 {
     background: rgba(196, 196, 196, 81%);
     padding: 0.7rem 0;
+    
+}
+
+#footer #footer_3 #a{
+    text-align: right;
 }
 
 #footer #footer_3 a {
@@ -716,6 +723,28 @@ h5 {
 
     #sanpham {
         padding: 0 12%;
+    }
+
+    #footer #footer_3{
+        text-align: center;  
+        
+    }
+
+    #footer #footer_3 .col-sm-6{
+        margin: 10px;
+    }
+
+    #footer #footer_3 a{
+        font-size: 20px;
+    }
+
+    #footer #footer_3 #a{
+        text-align: center;
+        
+    }
+
+    #footer #footer_3 #a a{
+        font-size: 20px;
     }
 
 }

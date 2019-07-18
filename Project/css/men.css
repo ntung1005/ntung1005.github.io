@@ -67,7 +67,7 @@ li{
 }
 
 #menu_filter #click{
-    width: 200px;
+    width: 100%;
     background: red;
     position: relative;
     padding: 10px;
@@ -90,9 +90,9 @@ li{
 
 #menu_filter #con{
     padding: 0;
-
+    overflow: hidden;
     background: grey;
-    width: 200px;
+    width: 100%;
     display: none;
 }
 
@@ -101,7 +101,7 @@ li{
 }
 
 #menu_filter #con li{
-    width: 200px;
+    width: 500px;
     border-bottom: 1px solid white;
     padding: 10px 0;
 }

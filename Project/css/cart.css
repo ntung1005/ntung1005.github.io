@@ -21,6 +21,7 @@
     background: rgba(206, 42, 42, 0.85);
     color: white;
     padding: 0.5rem 1rem;
+    font-size: 22px;
 }
 
 #main  #main_1 button:hover{
@@ -28,4 +29,10 @@
     background: white;
     color: rgba(206, 42, 42, 0.85);
     transition: 1s;
+}
+
+@media(max-width:600px){
+    #main  #main_1 button{
+        font-size: 18px;
+    }
 }
