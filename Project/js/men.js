@@ -85,13 +85,13 @@ $("#menu_filter #click").click(function () {
 
         $(this)
             .children(".click_1")
-            .html("-");
+            .html('<i class="fas fa-minus"></i>');
     } else {
         $(this)
             .next("#con")
             .slideUp();
         $(this)
             .children(".click_1")
-            .html("+");
+            .html('<i class="fas fa-plus"></i>');
     }
 });
