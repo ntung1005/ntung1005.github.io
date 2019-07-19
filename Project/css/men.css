@@ -106,3 +106,24 @@ li{
     border-bottom: 1px solid white;
     padding: 10px 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:576px){
+   #main_1{
+    
+    position: sticky;
+    top: 60px;
+    left: 0;
+    height: 100%;
+   }
+}
