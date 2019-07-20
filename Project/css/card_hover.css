@@ -4,12 +4,16 @@
 
 .product {
 
-    box-shadow: 0 5px 15px black;
+    box-shadow: 0 5px 15px grey;
     overflow: hidden;
 
     float: left;
     margin-bottom: 1rem;
     font-size: 18px;
+}
+
+.product:hover{
+    box-shadow: 0 5px 20px black;
 }
 
 .product .imgbox img {
