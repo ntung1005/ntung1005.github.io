@@ -131,7 +131,7 @@
 
 #main {
     width: 100%;
-    padding: 3rem;
+    padding: 6rem;
 
 }
 
@@ -228,6 +228,16 @@ li {
 
 
 
+
+
+
+
+
+@media(max-width:575.9px) {
+    #main{
+        padding: 2rem;
+    }
+}
 
 
 
