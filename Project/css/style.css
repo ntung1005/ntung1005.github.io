@@ -444,7 +444,7 @@ li {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .8);
     cursor: pointer;
     opacity: 0;
     z-index: -10000;
@@ -468,7 +468,7 @@ li {
 .form {
     position: relative;
     z-index: 1;
-    background: rgba(205, 25, 25, 0.8);
+    background: rgba(205, 25, 25, 0.9);
     max-width: 480px;
     margin: 0 auto 100px;
     padding: 45px;
@@ -684,10 +684,23 @@ li {
     font-size: 1.5rem;
     color: black;
     margin: 0 0.3rem;
+    text-decoration: none;
 }
 
-#footer #footer_3 #a a:hover {
-    color: blue;
+#footer #footer_3 #a a:nth-child(1):hover {
+    color: #0f0fc4;
+}
+
+#footer #footer_3 #a a:nth-child(2):hover {
+    color: #0f8ae1;
+}
+
+#footer #footer_3 #a a:nth-child(3):hover {
+    color:#b61dc8;
+}
+
+#footer #footer_3 #a a:nth-child(4):hover {
+    color: red;
 }
 
 
@@ -705,10 +718,10 @@ li {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    ;
+    line-height: 0;
 
     font-size: 30px;
-    padding: 0.1rem 1rem;
+    padding: 0.3rem 0.6rem;
     border-radius: 5px;
     background: rgba(248, 18, 18, 0.6);
 

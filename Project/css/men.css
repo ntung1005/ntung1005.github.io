@@ -20,7 +20,7 @@
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 18px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -131,7 +131,7 @@
 
 #main {
     width: 100%;
-    padding: 6rem;
+    padding: 3rem 6rem;
 
 }
 
@@ -149,7 +149,7 @@
 
 #main #sp ul li {
     list-style: none;
-    
+
 }
 
 #main #sp ul li a {
@@ -216,7 +216,8 @@ li {
 }
 
 #menu_filter #con label {
-    margin: 0;
+    margin: 10px 0;
+
 }
 
 #menu_filter #con li {
@@ -233,14 +234,28 @@ li {
 
 
 
-@media(max-width:575.9px) {
 
-    #main{
-        padding: 2.5rem 1rem;
+@media(max-width:991.9px) {
+    #main_1 {
+        margin-bottom: 30px;
     }
 
-    #main #main_1{
-        padding: 0 2rem;
+    #menu_filter ul li {
+        width: 50%;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        float: left;
+    }
+}
+
+@media(max-width:576px) {
+
+
+    #menu_filter ul li {
+        width: 100%;
+        padding: 0;
+        margin: 0.5rem 0;
+
     }
 }
 
@@ -248,5 +263,13 @@ li {
 
 
 
+@media(max-width:575.9px) {
 
+    #main {
+        padding: 2.5rem 1rem;
+    }
 
+    #main #main_1 {
+        padding: 0 2rem;
+    }
+}

@@ -42,12 +42,13 @@
     font-size: 14px;
     padding: 0.5rem;
     transition: all 0.6s linear;
+    border: solid 2px #CD2727;
 }
 
 #submit:hover{
-    background-color: #CD2727;
+    background-color: black;
     color: #ffffff;
-    border: solid 2px #CD2727;
+    border: solid 2px black;
 }
 
 .error{

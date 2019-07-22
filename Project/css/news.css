@@ -41,10 +41,12 @@
 #main #image {
         max-height: 15rem;
         overflow: hidden;
+        margin-bottom: 20px;
 }
 
 #main #image1 {
         max-height: 10rem;
+        
         overflow: hidden;
 }
 
