@@ -283,11 +283,16 @@
             </div>
         </div>
 
+        <div id="main_4">
+            <h3>Chia Sẻ Của Khách Hàng</h3>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="owl-carousel owl-theme" id="main_4_1">
 
-        <div id="main_4" class="container">
-            <h3>Khách Hàng Nói Gì Về Shop</h3>
-            <div id="main_4_1" class="row">
 
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -295,10 +300,18 @@
 
         <div id="main_5" class="container">
             <h3>Tin Tức Mới</h3>
-            <div id="main_5_1" class="row">
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="owl-carousel owl-theme" id="main_5_1">
 
+
+                    </div>
+                </div>
             </div>
         </div>
+
+
 
         <div id="main_6">
             <div id="main_6_1a"></div>
@@ -382,10 +395,24 @@
 
         <div id="footer_2" class="container">
             <div class="row">
-                <div class="col-sm-3">
-                    <img src="../img/logo2.png" alt="">
+                <div class="col-md-4">
+
+                    <ul>
+                        <li>Liên Hệ</li>
+                        <li>SĐT: 0978032402</a></li>
+                        <li> <span>Store 1</span> 57 Quan Hoa, Cầu Giấy, HN</li>
+
+                        <li> <span>Store 2</span> 29 Trần Đại Nghĩa, Hai Bà Trưng, HN</li>
+
+                        <li> <span>Store 3</span> 123 Nguyễn Lương Bằng, Đống Đa, HN</li>
+
+                        <li> <span>Store 4</span> 61 Trần Phú, Hà Đông, HN</li>
+
+                        <li> <span>Store 5</span> 51A Phạm Tuấn Tài, Cầu Giấy, HN
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-2">
                     <ul>
                         <li>ĐẶT HÀNG </li>
                         <li>Đặt hàng thế nào ?</li>
@@ -394,42 +421,43 @@
                     </ul>
                 </div>
 
-                <div class="col-sm-3">
+                <div class="col-md-2">
                     <ul>
-                        <li>ĐẶT HÀNG </li>
-                        <li>Đặt hàng thế nào ?</li>
-                        <li>Thông tin giao hàng </li>
-                        <li>Trả lại và trao đổi</li>
+                        <li>HỖ TRỢ </li>
+                        <li>7 cách bảo quản giày thể thao tốt nhất</li>
+                        <li>Giữ “phong độ” cho Sneaker trắng ra sao</li>
+                        <li>9 kỹ thuật làm đẹp dành cho U30</li>
                     </ul>
                 </div>
 
-                <div class="col-sm-3">
-                    <ul>
-                        <li>ĐẶT HÀNG </li>
-                        <li>Đặt hàng thế nào ?</li>
-                        <li>Thông tin giao hàng </li>
-                        <li>Trả lại và trao đổi</li>
-                    </ul>
+                <div class="col-md-4">
+                    <div id="fb-root"></div>
+                    <script async defer crossorigin="anonymous"
+                        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3"></script>
+
+                    <div class="fb-page"
+                        data-href="https://www.facebook.com/DemoProject-2585801611438970/?modal=admin_todo_tour"
+                        data-tabs="timeline" data-width="" data-height="300" data-small-header="false"
+                        data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/DemoProject-2585801611438970/?modal=admin_todo_tour"
+                            class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/DemoProject-2585801611438970/?modal=admin_todo_tour">DemoProject</a>
+                        </blockquote>
+                    </div>
                 </div>
             </div>
+
         </div>
 
         <div id="footer_3">
-            <div class="container">
-                <div class="row">
-                    <div class=" col-sm-6">
-                        <a href="#" class="fas fa-phone"> Liên Hệ : 0978032402</a>
-                    </div>
-
-
-                    <div id="a" class="col-sm-6">
-                        <a href="#" class="fab fa-facebook-square"></a>
-                        <a href="#" class="fab fa-twitter-square"></a>
-                        <a href="#" class="fab fa-instagram"></a>
-                        <a href="#" class="fab fa-youtube-square"></a>
-                    </div>
-                </div>
+            <div id="internet">
+                <a href="#" class="fab fa-facebook-square"></a>
+                <a href="#" class="fab fa-twitter-square"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-youtube-square"></a>
             </div>
+            <p>Copyright 2019 <i class="far fa-copyright"></i> Designed by TungNguyen</p>
+
         </div>
     </div>
 
@@ -439,7 +467,42 @@
         <a href="#header"><span class="fas fa-caret-up"></span></a>
     </div>
 
-    <script src="../js/home.js"></script>
+
+
+
+
+
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v3.3'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="2585801611438970"
+        logged_in_greeting="Xin Chào! Tôi có thể giúp gì cho bạn?"
+        logged_out_greeting="Xin Chào! Tôi có thể giúp gì cho bạn?">
+    </div>
+
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
@@ -454,8 +517,7 @@
     <script src="../js/header_footer.js"></script>
     <script src="../carousel/owl.carousel.js"></script>
 
-    <script src="../carousel/carousel.js"></script>
-
+    <script src="../js/home.js"></script>
 </body>
 </body>
 

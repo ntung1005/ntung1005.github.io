@@ -656,54 +656,65 @@ li {
 
 #footer #footer_2 {
     padding: 2rem 0;
+    font-size: 15px;
 }
 
 #footer #footer_2 ul li {
     list-style: none;
+    margin-bottom: 20px;
 }
+
+#footer #footer_2 ul li span{
+    color: grey;
+}
+
+#footer #footer_2 ul li:nth-child(1) {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
 
 
 #footer #footer_3 {
     background: rgba(196, 196, 196, 81%);
-    padding: 0.7rem 0;
-
+    padding: 1rem 0;
+    text-align: center;
 }
 
-#footer #footer_3 #a {
-    text-align: right;
+#footer #footer_3 p{
+    margin: 0;
 }
 
-#footer #footer_3 a {
-    font-size: 1.2rem;
-    color: black;
-    margin: 0 0.3rem;
+
+
+#footer #footer_3 #internet{
+    text-align: center;
+    margin: 20px 0 ;
 }
 
-#footer #footer_3 #a a {
-    font-size: 1.5rem;
-    color: black;
+#footer #footer_3 #internet a {
+    font-size: 30px;
+    color: #666;
     margin: 0 0.3rem;
     text-decoration: none;
 }
 
-#footer #footer_3 #a a:nth-child(1):hover {
+#footer #footer_3 #internet a:nth-child(1):hover {
     color: #0f0fc4;
 }
 
-#footer #footer_3 #a a:nth-child(2):hover {
+#footer #footer_3 #internet a:nth-child(2):hover {
     color: #0f8ae1;
 }
 
-#footer #footer_3 #a a:nth-child(3):hover {
+#footer #footer_3 #internet a:nth-child(3):hover {
     color:#b61dc8;
 }
 
-#footer #footer_3 #a a:nth-child(4):hover {
+#footer #footer_3 #internet a:nth-child(4):hover {
     color: red;
 }
-
-
 
 
 
@@ -811,9 +822,6 @@ h5 {
 
     }
 
-    #footer #footer_3 .col-sm-6 {
-        margin: 10px;
-    }
 
     #footer #footer_3 a {
         font-size: 20px;
@@ -863,6 +871,10 @@ h5 {
     #footer #footer_2 {
         text-align: center;
         font-size: 16px;
+    }
+
+    #footer #footer_2 div{
+        margin-bottom: 30px;
     }
 
     #footer #footer_2 img {

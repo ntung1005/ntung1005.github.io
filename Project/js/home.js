@@ -146,7 +146,7 @@ document.getElementById('hotitem').innerHTML = a;
 
 let b = '';
 for (i = 0; i < 3; i++) {
-    b += `<div id="comment" class="col-sm-4" style="padding: 0.7rem">
+    b += `<div id="comment" style="padding: 0.7rem">
   <div id="comment_1" style="width:5rem; left:50%; transform: translate(-50%)">
       <img src="../img/chandung.png" alt="">
   </div>
@@ -163,7 +163,7 @@ document.getElementById('main_4_1').innerHTML = b;
 
 let c = '';
 for (i = 0; i < 3; i++) {
-    c += `<div id="news" class="col-sm-4" style="padding: 0.7rem">
+    c += `<div id="news" style="padding: 0.7rem">
   
   <div id="news_1">
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. in the 1960s with the
@@ -174,3 +174,34 @@ for (i = 0; i < 3; i++) {
 }
 
 document.getElementById('main_5_1').innerHTML = c;
+
+
+
+
+
+
+
+
+
+
+
+// Carousel 
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        900:{
+            items:3
+        }
+    }
+});
+
+// 

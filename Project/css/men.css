@@ -163,6 +163,10 @@
     text-align: right;
 }
 
+#main #main_2 #sort select{
+    background: red;
+    color: white;
+}
 
 
 /*  */
