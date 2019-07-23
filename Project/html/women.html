@@ -357,18 +357,26 @@
 
 
             <div id="main_2" class="col-lg-9">
-
-                <div id="item" class="row">
-
+                <div id="sort">
+                    <select name="" id="sortprice">
+                        <option value="" selected disabled>Săp Xếp</option>
+                        <option value="price_up">Giá Tăng Dần</option>
+                        <option value="price_down">Giá Giảm Dần</option>
+                    </select>
                 </div>
-                <div id="other_item" class="row">
+                <div id="qwe" class="row">
+                    <div id="item" class="row">
 
-                </div>
-                <div style="text-align: center;margin: 3rem 0;position: relative;">
-                    <button onclick="loadImages()" id="e" style="width:10rem;height:2.5rem;border:2px solid black;">Xem
-                        Thêm</button>
-                </div>
+                    </div>
+                    <div id="other_item" class="row">
 
+                    </div>
+                    <div style="text-align: center;margin: 3rem 0;position: relative;width: 100%">
+                        <button onclick="loadImages()" id="e"
+                            style="width:10rem;height:2.5rem;border:2px solid black;">Xem
+                            Thêm</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -397,8 +405,25 @@
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 </p>
 
-                                <a href=""><button id="btn1">Thêm Vào Giỏ</button></a><br>
-                                <a href="item.html"><button id="btn2">Mua Ngay</button></a>
+                                <span>Chọn Size</span><br>
+                                <select name="" id="" style="margin-bottom:12px">
+
+                                    <option value="" selected disabled>Chọn Size</option>
+                                    <option value="price_up">36</option>
+                                    <option value="price_down">37</option>
+                                    <option value="price_up">38</option>
+                                    <option value="price_down">39</option>
+                                    <option value="price_up">40</option>
+                                    <option value="price_down">41</option>
+                                    <option value="price_up">42</option>
+
+                                </select>
+                                <br>
+
+                                <span>Chọn Số Lượng</span><br>
+                                <input type="number" value="1" min="1" style="max-width:150px;margin-bottom:12px">
+
+                                <button id="btn2">Thêm Vào Giỏ</button>
                             </div>
                         </div>
                     </div>

@@ -89,15 +89,23 @@
     color:#CE2A2A;
 }
 
+#choose_amounts input[type="text"]{
+    border: 1px solid;
+    border-radius: 50px;
+}
 
+#choose_amounts button{
+    border: none;
+    background: none;
+}
 
 .choose #mua{
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 2rem;
     background: #CE2A2A;
     color: white;
     border: none;
     font-weight:600;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border: 3px solid transparent;
     
 }

@@ -6,17 +6,21 @@
 
 }
 
-#main #main_1 h3 {
+#main h3 {
     text-align: center;
     text-decoration: underline;
-
+    font-size: 46px;
+    margin: 50px 0;
 }
 
-#main #main_3 h3 {
-    text-align: center;
-    text-decoration: underline;
-    margin-bottom: 1.5rem;
+@media(max-width:400px){
+    
+#main h3{
+    font-size: 36px;
 }
+}
+
+
 
 
 .card {
