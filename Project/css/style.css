@@ -729,7 +729,7 @@ li {
 
 #backtotop {
     position: fixed;
-    bottom: 4rem;
+    bottom: 120px;
     right: 2rem;
     line-height: 0;
 
