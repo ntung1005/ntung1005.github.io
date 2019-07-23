@@ -618,6 +618,8 @@ li {
 
 
 
+
+
 /* Footer */
 
 #footer #footer_1 {
@@ -727,7 +729,7 @@ li {
 
 #backtotop {
     position: fixed;
-    bottom: 2rem;
+    bottom: 120px;
     right: 2rem;
     line-height: 0;
 
@@ -880,6 +882,29 @@ h5 {
     #footer #footer_2 img {
         width: 300px;
     }
+}
+
+/*  */
+
+
+
+
+
+
+/* plugin chatbox */
+    .fb_dialog{
+    background: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+    display: inline;
+    /* height: 45pt; */
+    padding: 0px;
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    top: auto;
 }
 
 /*  */
