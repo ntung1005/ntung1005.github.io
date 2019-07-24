@@ -46,8 +46,8 @@
 
                     <div class="col-4" id="header_21b">
                         <ul>
-                            <li><a href="men.html">Giày Nam</a></li>
-                            <li class="active"><a href="women.html">Giày Nữ</a></li>
+                            <li><a href="men.html#main">Giày Nam</a></li>
+                            <li class="active"><a href="women.html#main">Giày Nữ</a></li>
                             <li><a href="sale.html">Khuyến Mãi</a></li>
                         </ul>
                     </div>
@@ -117,11 +117,11 @@
                             <ul>
 
 
-                                <a href="men.html">
+                                <a href="men.html#main">
                                     <li>Giày Nam</li>
                                 </a>
 
-                                <a href="women.html">
+                                <a href="women.html#main">
                                     <li>Giày Nữ</li>
                                 </a>
 
@@ -386,51 +386,7 @@
 
     <!-- Modal -->
     <div id="modal">
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Chi Tiết Sản Phẩm</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <img src="../img/sản phẩm 5.jpg" alt="">
-                            </div>
-                            <div class="col-sm-6">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                </p>
-
-                                <span>Chọn Size</span><br>
-                                <select name="" id="" style="margin-bottom:12px">
-
-                                    <option value="" selected disabled>Chọn Size</option>
-                                    <option value="price_up">36</option>
-                                    <option value="price_down">37</option>
-                                    <option value="price_up">38</option>
-                                    <option value="price_down">39</option>
-                                    <option value="price_up">40</option>
-                                    <option value="price_down">41</option>
-                                    <option value="price_up">42</option>
-
-                                </select>
-                                <br>
-
-                                <span>Chọn Số Lượng</span><br>
-                                <input type="number" value="1" min="1" style="max-width:150px;margin-bottom:12px">
-
-                                <button id="btn2">Thêm Vào Giỏ</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+        
     </div>
     <!--  -->
 
@@ -522,23 +478,7 @@
 
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
-    <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v3.3'
-            });
-        };
-
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+    
 
     <!-- Your customer chat code -->
     <div class="fb-customerchat" attribution=install_email page_id="2585801611438970" logged_in_greeting="Xin Chào !!!"

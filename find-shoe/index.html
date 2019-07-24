@@ -49,8 +49,8 @@
 
                     <div class="col-4" id="header_21b">
                         <ul>
-                            <li><a href="html/men.html">Giày Nam</a></li>
-                            <li><a href="html/women.html">Giày Nữ</a></li>
+                            <li><a href="html/men.html#main">Giày Nam</a></li>
+                            <li><a href="html/women.html#main">Giày Nữ</a></li>
                             <li><a href="html/sale.html">Khuyến Mãi</a></li>
                         </ul>
                     </div>
@@ -120,11 +120,11 @@
                             <ul>
 
 
-                                <a href="html/men.html">
+                                <a href="html/men.html#main">
                                     <li>Giày Nam</li>
                                 </a>
 
-                                <a href="html/women.html">
+                                <a href="html/women.html#main">
                                     <li>Giày Nữ</li>
                                 </a>
 
@@ -263,14 +263,14 @@
             <div id="men-sneaker" class="sneaker col-md-6">
                 <div id="hover-img">
                     <img src="img/men-sneaker.jpg" alt="">
-                    <a href="men.html"><button>Giày Nam</button></a>
+                    <a href="html/men.html#main"><button>Giày Nam</button></a>
                 </div>
 
             </div>
             <div id="women-sneaker" class="sneaker col-md-6">
                 <div id="hover-img">
                     <img src="img/women-sneaker.jpg" alt="">
-                    <a href="women.html"><button>Giày Nữ</button></a>
+                    <a href="html/women.html#main"><button>Giày Nữ</button></a>
                 </div>
 
             </div>
@@ -430,23 +430,7 @@
 
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
-    <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v3.3'
-            });
-        };
 
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
 
     <!-- Your customer chat code -->
     <div class="fb-customerchat" attribution=install_email page_id="2585801611438970" logged_in_greeting="Xin Chào !!!"
