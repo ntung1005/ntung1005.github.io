@@ -2,56 +2,56 @@ let info_item = [{
         name: 'Sản Phẩm 1',
         old_price: "",
         new_price: "1.000.000",
-        src: '../img/sản phẩm 1.jpg'
+        src: 'img/sản phẩm 1.jpg'
     },
 
     {
         name: 'Sản Phẩm 2',
         old_price: "",
         new_price: "5.000.000",
-        src: '../img/sản phẩm 2.jpg'
+        src: 'img/sản phẩm 2.jpg'
     },
 
     {
         name: 'Sản Phẩm 3',
         old_price: "",
         new_price: "4.000.000",
-        src: '../img/sản phẩm 3.jpg'
+        src: 'img/sản phẩm 3.jpg'
     },
 
     {
         name: 'Sản Phẩm 4',
         old_price: "",
         new_price: "3.000.000",
-        src: '../img/sản phẩm 4.jpg'
+        src: 'img/sản phẩm 4.jpg'
     },
 
     {
         name: 'Sản Phẩm 5',
         old_price: "",
         new_price: "32.000.000",
-        src: '../img/sản phẩm 5.jpg'
+        src: 'img/sản phẩm 5.jpg'
     },
 
     {
         name: 'Sản Phẩm 6',
         old_price: "",
         new_price: "9.000.000",
-        src: '../img/sản phẩm 6.jpg'
+        src: 'img/sản phẩm 6.jpg'
     },
 
     {
         name: 'Sản Phẩm 7',
         old_price: "",
         new_price: "71.000.000",
-        src: '../img/sản phẩm 7.jpg'
+        src: 'img/sản phẩm 7.jpg'
     },
 
     {
         name: 'Sản Phẩm 8',
         old_price: "",
         new_price: "1.000.000",
-        src: '../img/sản phẩm 8.jpg'
+        src: 'img/sản phẩm 8.jpg'
     },
 
     {
@@ -61,7 +61,7 @@ let info_item = [{
         data_newprice: "1-5",
         data_kindofitem: "fake",
         data_firm:"other",
-        src: '../img/sản phẩm 9.jpg'
+        src: 'img/sản phẩm 9.jpg'
     },
     
     {
@@ -71,7 +71,7 @@ let info_item = [{
         data_newprice: "1-5",
         data_kindofitem: "fake",
         data_firm:"other",
-        src: '../img/sản phẩm 10.jpg'
+        src: 'img/sản phẩm 10.jpg'
     },
     
     {
@@ -81,7 +81,7 @@ let info_item = [{
         data_newprice: "15-50",
         data_kindofitem: "auth",
         data_firm:"nike",
-        src: '../img/sản phẩm 11.jpg'
+        src: 'img/sản phẩm 11.jpg'
     },
     
     {
@@ -91,7 +91,7 @@ let info_item = [{
         data_newprice: "5-15",
         data_kindofitem: "rep",
         data_firm:"adidas",
-        src: '../img/sản phẩm 12.jpg'
+        src: 'img/sản phẩm 12.jpg'
     },
 
 
@@ -148,7 +148,7 @@ let b = '';
 for (i = 0; i < 3; i++) {
     b += `<div id="comment" style="padding: 0.7rem">
   <div id="comment_1" style="width:5rem; left:50%; transform: translate(-50%)">
-      <img src="../img/chandung.png" alt="">
+      <img src="img/chandung.png" alt="">
   </div>
   <div id="comment_2">
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. in the 1960s with the
