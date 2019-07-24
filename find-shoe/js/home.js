@@ -118,7 +118,7 @@ for (i = 0; i < info_item.length; i++) {
         <div class="col-lg-3 col-md-4 col-sm-6 sanpham" >
             <div class="product">
                 <div class="imgbox">
-                <a href="item.html"><img src="${info_item[i].src}" alt=""></a>
+                <a href="html/item.html"><img src="${info_item[i].src}" alt=""></a>
 
                     <div class="details">
                         <a data-toggle="modal" data-target="#exampleModal${i}">Xem Nhanh</a>
