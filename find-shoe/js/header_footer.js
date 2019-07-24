@@ -37,7 +37,7 @@ let backtotop=document.getElementById('backtotop');
 
 window.onscroll=function(){
 
-    if(window.pageYOffset>1000){
+    if(window.pageYOffset>800){
         backtotop.style.display='block';
     }
     else{
