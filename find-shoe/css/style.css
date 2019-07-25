@@ -272,6 +272,7 @@ li {
     margin: 0;
 }
 
+
 #input_search {
     width: 100%;
     position: absolute;
@@ -764,9 +765,7 @@ h5 {
 
 /*  */
 
-#main img {
-    width: 100%;
-}
+
 
 #footer img {
     width: 100%;

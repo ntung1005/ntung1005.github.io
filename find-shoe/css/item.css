@@ -44,6 +44,11 @@
 
 }
 
+#main img {
+    width: 100%;
+}
+
+
 #main .col-2 div {
     float: right;
 }

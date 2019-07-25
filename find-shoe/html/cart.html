@@ -12,13 +12,13 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <link rel="stylesheet" href="../carousel/owl.carousel.css">
-        <link rel="stylesheet" href="../carousel/owl.theme.default.css">
+    <link rel="stylesheet" href="../carousel/owl.carousel.css">
+    <link rel="stylesheet" href="../carousel/owl.theme.default.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/cart.css">
     <link rel="stylesheet" href="../css/style.css">
 
     <link rel="shortcut icon" type="image/png" href="../img/logo2.png" />
+    <link rel="stylesheet" href="../css/cart.css">
     <title>FindShoe-Giỏ Hàng</title>
 </head>
 
@@ -246,10 +246,66 @@
 
     <div id="main" class="container">
         <div id="main_1">
-            <img src="../img/sad.png" alt="">
-            <p>Giỏ Hàng Chưa Có Sản Phẩm Nào</p>
+            <p>Giỏ Hàng Của Bạn</p>
 
-            <a href="index.html"><button>Tiếp Tục Mua Hàng</button></a>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sản Phẩm</th>
+                            <th></th>
+                            <th>Giá</th>
+                            <th>Số Lượng</th>
+                            <th>Tổng</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="../img/sản phẩm 1.jpg" alt=""></td>
+                            <td>Giày Thể Thao Size 39</td>
+
+                            <td>500.000đ</td>
+                            <td><input type="number" value="1" min="1" style="max-width:80px"> <input type="button" name="" id="" value="Xóa"></td>
+                            <td>500.000đ</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+        </div>
+
+        <div id="main_2" class="row">
+            <div class="col-md-6">
+                <h4>Thông Tin Khách Hàng</h4>
+                <div id="main_2_2">
+                    <span>Họ Và Tên(*)</span>
+                    <input type="text">
+
+                    <span>Số Điện Thoại(*)</span>
+                    <input type="text">
+
+                    <span>Địa Chỉ Nhận Hàng(*)</span>
+                    <input type="text">
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <h4>Mã Giảm Giá</h4>
+                <div id="main_2_2">
+                    <span>Mã Giảm Giá(nếu có)</span>
+                    <input type="text">
+                </div>
+            </div>
+
+        </div>
+
+        <div id="main_3">
+            <button>Tiến Hành Thanh Toán</button>
+            <button><a href="../index.html"> Tiếp Tục Mua Hàng</a></button>
         </div>
 
         <div id="carousel">
@@ -278,83 +334,83 @@
 
 
     <div id="footer">
-            <div id="footer_1" class="row">
-                <h3 class="col-md-6">Đăng Kí Để Nhận Khuyến Mãi</h3>
-                <div id="input" class="ml-auto col-md-6">
-                    <form action="">
-                        <input type="text" placeholder="Nhập Email Của Bạn">
-                        <a href="#" class="fas fa-paper-plane"></a>
-                    </form>
-                </div>
-            </div>
-    
-            <div id="footer_2" class="container">
-                <div class="row">
-                    <div class="col-md-4">
-    
-                        <ul>
-                            <li>Liên Hệ</li>
-                            <li>SĐT: 0978032402</a></li>
-                            <li> <span>Store 1</span> 57 Quan Hoa, Cầu Giấy, HN</li>
-    
-                            <li> <span>Store 2</span> 29 Trần Đại Nghĩa, Hai Bà Trưng, HN</li>
-    
-                            <li> <span>Store 3</span> 123 Nguyễn Lương Bằng, Đống Đa, HN</li>
-    
-                            <li> <span>Store 4</span> 61 Trần Phú, Hà Đông, HN</li>
-    
-                            <li> <span>Store 5</span> 51A Phạm Tuấn Tài, Cầu Giấy, HN
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2">
-                        <ul>
-                            <li>ĐẶT HÀNG </li>
-                            <li>Đặt hàng thế nào ?</li>
-                            <li>Thông tin giao hàng </li>
-                            <li>Trả lại và trao đổi</li>
-                        </ul>
-                    </div>
-    
-                    <div class="col-md-2">
-                        <ul>
-                            <li>HỖ TRỢ </li>
-                            <li>7 cách bảo quản giày thể thao tốt nhất</li>
-                            <li>Giữ “phong độ” cho Sneaker trắng ra sao</li>
-                            <li>9 kỹ thuật làm đẹp dành cho U30</li>
-                        </ul>
-                    </div>
-    
-                    <div class="col-md-4">
-                        <div id="fb-root"></div>
-                        <script async defer crossorigin="anonymous"
-                            src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3"></script>
-    
-                        <div class="fb-page"
-                            data-href="https://www.facebook.com/DemoProject-2585801611438970/?modal=admin_todo_tour"
-                            data-tabs="timeline" data-width="" data-height="300" data-small-header="false"
-                            data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-                            <blockquote cite="https://www.facebook.com/DemoProject-2585801611438970/?modal=admin_todo_tour"
-                                class="fb-xfbml-parse-ignore"><a
-                                    href="https://www.facebook.com/DemoProject-2585801611438970/?modal=admin_todo_tour">DemoProject</a>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-    
-            </div>
-    
-            <div id="footer_3">
-                <div id="internet">
-                    <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-twitter-square"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-youtube-square"></a>
-                </div>
-                <p>Copyright 2019 <i class="far fa-copyright"></i> Designed by TungNguyen</p>
-    
+        <div id="footer_1" class="row">
+            <h3 class="col-md-6">Đăng Kí Để Nhận Khuyến Mãi</h3>
+            <div id="input" class="ml-auto col-md-6">
+                <form action="">
+                    <input type="text" placeholder="Nhập Email Của Bạn">
+                    <a href="#" class="fas fa-paper-plane"></a>
+                </form>
             </div>
         </div>
+
+        <div id="footer_2" class="container">
+            <div class="row">
+                <div class="col-md-4">
+
+                    <ul>
+                        <li>Liên Hệ</li>
+                        <li>SĐT: 0978032402</a></li>
+                        <li> <span>Store 1</span> 57 Quan Hoa, Cầu Giấy, HN</li>
+
+                        <li> <span>Store 2</span> 29 Trần Đại Nghĩa, Hai Bà Trưng, HN</li>
+
+                        <li> <span>Store 3</span> 123 Nguyễn Lương Bằng, Đống Đa, HN</li>
+
+                        <li> <span>Store 4</span> 61 Trần Phú, Hà Đông, HN</li>
+
+                        <li> <span>Store 5</span> 51A Phạm Tuấn Tài, Cầu Giấy, HN
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul>
+                        <li>ĐẶT HÀNG </li>
+                        <li>Đặt hàng thế nào ?</li>
+                        <li>Thông tin giao hàng </li>
+                        <li>Trả lại và trao đổi</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <ul>
+                        <li>HỖ TRỢ </li>
+                        <li>7 cách bảo quản giày thể thao tốt nhất</li>
+                        <li>Giữ “phong độ” cho Sneaker trắng ra sao</li>
+                        <li>9 kỹ thuật làm đẹp dành cho U30</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <div id="fb-root"></div>
+                    <script async defer crossorigin="anonymous"
+                        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3"></script>
+
+                    <div class="fb-page"
+                        data-href="https://www.facebook.com/DemoProject-2585801611438970/?modal=admin_todo_tour"
+                        data-tabs="timeline" data-width="" data-height="300" data-small-header="false"
+                        data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/DemoProject-2585801611438970/?modal=admin_todo_tour"
+                            class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/DemoProject-2585801611438970/?modal=admin_todo_tour">DemoProject</a>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer_3">
+            <div id="internet">
+                <a href="#" class="fab fa-facebook-square"></a>
+                <a href="#" class="fab fa-twitter-square"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-youtube-square"></a>
+            </div>
+            <p>Copyright 2019 <i class="far fa-copyright"></i> Designed by TungNguyen</p>
+
+        </div>
+    </div>
 
     <div id="backtotop">
         <a href="#header"><span class="fas fa-caret-up"></span></a>
@@ -362,7 +418,7 @@
 
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
-    
+
 
     <!-- Your customer chat code -->
     <div class="fb-customerchat" attribution=install_email page_id="2585801611438970" logged_in_greeting="Xin Chào !!!"
@@ -379,7 +435,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    
+
     <script src="../carousel/owl.carousel.js"></script>
 
     <script src="../carousel/carousel.js"></script>

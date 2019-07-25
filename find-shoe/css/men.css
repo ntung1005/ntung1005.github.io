@@ -4,6 +4,9 @@
 
 
 
+#main img {
+    width: 100%;
+}
 
 
 
@@ -164,8 +167,7 @@
 }
 
 #main #main_2 #sort select{
-    background: red;
-    color: white;
+   border: 3px solid;
 }
 
 

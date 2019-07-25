@@ -38,6 +38,11 @@
 
 }
 
+#main img {
+        width: 100%;
+    }
+    
+
 #main #image {
         max-height: 15rem;
         overflow: hidden;
