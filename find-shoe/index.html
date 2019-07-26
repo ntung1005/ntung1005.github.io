@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="carousel/owl.carousel.css">
-    <link rel="stylesheet" href="carousel/owl.theme.default.css">
+    <link rel="stylesheet" href="../carousel/owl.carousel.css">
+    <link rel="stylesheet" href="../carousel/owl.theme.default.css">
 
-    <link rel="stylesheet" href="css/card_hover.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/card_hover.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <title>FindShoe-Trang Chủ</title>
 </head>
@@ -44,13 +44,13 @@
             <div id="header_2">
                 <div class="row" id="header_21">
                     <div class="col-4" id="header_21a">
-                        <a href="index.html"><img src="img/logo2.png" alt=""></a>
+                        <a href="index.html"><img src="../img/logo2.png" alt=""></a>
                     </div>
 
                     <div class="col-4" id="header_21b">
                         <ul>
-                            <li><a href="html/men.html#main">Giày Nam</a></li>
-                            <li><a href="html/women.html#main">Giày Nữ</a></li>
+                            <li><a href="html/men.html">Giày Nam</a></li>
+                            <li><a href="html/women.html">Giày Nữ</a></li>
                             <li><a href="html/sale.html">Khuyến Mãi</a></li>
                         </ul>
                     </div>
@@ -93,7 +93,7 @@
 
             <div id="header_4">
                 <div id="banner">
-                    <img src="img/banner (1).jpg" alt="">
+                    <img src="../img/banner (1).jpg" alt="">
                 </div>
             </div>
         </div>
@@ -120,11 +120,11 @@
                             <ul>
 
 
-                                <a href="html/men.html#main">
+                                <a href="html/men.html">
                                     <li>Giày Nam</li>
                                 </a>
 
-                                <a href="html/women.html#main">
+                                <a href="html/women.html">
                                     <li>Giày Nữ</li>
                                 </a>
 
@@ -139,11 +139,11 @@
                                         <li>Thông tin Shop</li>
                                     </a>
 
-                                    <a href=html/news.html">
+                                    <a href="html/news.html">
                                         <li>Bài Viết</li>
                                     </a>
 
-                                    <a href=html/call.html">
+                                    <a href="html/call.html">
                                         <li>Liên Hệ</li>
                                     </a>
                                 </div>
@@ -156,7 +156,7 @@
 
                     <div id="b_2_2">
                         <button onclick="search_responsive()"><span class="fas fa-search"></span></button>
-                        <a href="cart.html"> <button><span class="fas fa-shopping-bag"></span></button></a>
+                        <a href="html/cart.html"> <button><span class="fas fa-shopping-bag"></span></button></a>
 
                     </div>
 
@@ -165,7 +165,7 @@
 
 
                 <div id="logo_responsive">
-                    <a href="index.html"><img src="img/logo2.png" alt=""></a>
+                    <a href="index.html"><img src="../img/logo2.png" alt=""></a>
                 </div>
 
 
@@ -203,7 +203,7 @@
 
             <div id="b_4">
                 <div id="banner">
-                    <img src="img/banner (1).jpg" alt="">
+                    <img src="../img/banner (1).jpg" alt="">
                 </div>
             </div>
 
@@ -262,15 +262,15 @@
         <div id="main_2" class="row">
             <div id="men-sneaker" class="sneaker col-md-6">
                 <div id="hover-img">
-                    <img src="img/men-sneaker.jpg" alt="">
-                    <a href="html/men.html#main"><button>Giày Nam</button></a>
+                    <img src="../img/men-sneaker.jpg" alt="">
+                    <a href="men.html"><button>Giày Nam</button></a>
                 </div>
 
             </div>
             <div id="women-sneaker" class="sneaker col-md-6">
                 <div id="hover-img">
-                    <img src="img/women-sneaker.jpg" alt="">
-                    <a href="html/women.html#main"><button>Giày Nữ</button></a>
+                    <img src="../img/women-sneaker.jpg" alt="">
+                    <a href="women.html"><button>Giày Nữ</button></a>
                 </div>
 
             </div>
@@ -330,7 +330,51 @@
 
     <!-- Modal -->
     <div id="modal">
-       
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Chi Tiết Sản Phẩm</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="../img/sản phẩm 5.jpg" alt="">
+                            </div>
+                            <div class="col-sm-6">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+
+                                <span>Chọn Size</span><br>
+                                <select name="" id="" style="margin-bottom:12px">
+
+                                    <option value="" selected disabled>Chọn Size</option>
+                                    <option value="price_up">36</option>
+                                    <option value="price_down">37</option>
+                                    <option value="price_up">38</option>
+                                    <option value="price_down">39</option>
+                                    <option value="price_up">40</option>
+                                    <option value="price_down">41</option>
+                                    <option value="price_up">42</option>
+
+                                </select>
+                                <br>
+
+                                <span>Chọn Số Lượng</span><br>
+                                <input type="number" value="1" min="1" style="max-width:150px;margin-bottom:12px">
+
+                                <button id="btn2">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
     <!--  -->
 
@@ -430,7 +474,7 @@
 
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
-
+    
 
     <!-- Your customer chat code -->
     <div class="fb-customerchat" attribution=install_email page_id="2585801611438970" logged_in_greeting="Xin Chào !!!"
@@ -455,10 +499,10 @@
     </script>
     <script src='https://code.jquery.com/jquery-3.4.1.min.js
     '> </script>
-    <script src="js/header_footer.js"></script>
-    <script src="carousel/owl.carousel.js"></script>
+    <script src="../js/header_footer.js"></script>
+    <script src="../carousel/owl.carousel.js"></script>
 
-    <script src="js/home.js"></script>
+    <script src="../js/home.js"></script>
 </body>
 </body>
 
