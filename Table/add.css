@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+i{
+    padding-right:5px;
+}
+
+label{
+    width: 100%;
+}
+
+label span{
+    display: inline-block;
+    width: 20%;
+}
+
+label input{
+    width: 70%;
+}

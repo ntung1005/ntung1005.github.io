@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+i{
+    padding-right:5px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover{
+    background: #1210105c;
+}
+
+tbody ul{
+    display: flex;
+    justify-content: center;
+}
+
+tbody ul li{
+   list-style: none;
+   padding: 0 7px;
+   cursor: pointer;
+}
+
+tbody ul li:nth-child(1){
+    color: blue;
+    border-right: 1px solid black;
+}
+
+tbody ul li:nth-child(2){
+    color: red;
+}
+
+h1{
+    text-align: center;
+}
