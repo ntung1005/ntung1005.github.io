@@ -41,7 +41,7 @@ class Content extends React.Component {
         },
         {
             code: 'AUTUMN',
-            value: 10000000
+            value: 100000
         }
     ],
     discount: 0
@@ -104,6 +104,11 @@ class Content extends React.Component {
 
 
   // Coupon
+
+  getValueInputCoupon(a) {
+    this.setState({ value: event.target.value });
+  }
+
   applyCoupon(a) {
 
     const newCoupons = this.state.coupons;
@@ -111,7 +116,7 @@ class Content extends React.Component {
     for(let i=0;i<newCoupons.length;i++){
       if(this.state.value==newCoupons[i].code){
         this.state.discount=newCoupons[i].value
-        console.log(this.state.discount)
+        
         
       }
       
@@ -125,9 +130,7 @@ class Content extends React.Component {
     
   }
 
-  getValueInputCoupon(a) {
-    this.setState({ value: event.target.value });
-  }
+  
 
 
 
@@ -204,7 +207,7 @@ class Content extends React.Component {
               <input
                 value={product.quantity}
                 onChange={() => this.handleChange(i, event)}
-                type="number"
+                type="text"
                 name="num-product"
               />
 
@@ -265,7 +268,7 @@ class Content extends React.Component {
         {/* Total */}
 
         <Total
-          value={totalPrice}
+          value_total={totalPrice}
           applyCoupon={this.applyCoupon.bind(this)}
           getValueInputCoupon={this.getValueInputCoupon.bind(this)}
           value_coupon={this.state.discount}

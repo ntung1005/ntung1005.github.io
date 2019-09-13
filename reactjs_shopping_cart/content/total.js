@@ -22,7 +22,7 @@ function Total(props) {
                 <td>Phí ship</td>
                 <td>{shipping.toLocaleString()}VND</td>
               </tr>
-
+            
               <tr>
                 <td>Khuyến Mãi</td>
                 <td>{props.value_coupon.toLocaleString()}VND</td>
@@ -30,7 +30,7 @@ function Total(props) {
 
               <tr>
                 <td>Tổng Tiền</td>
-                <td>{(props.value + shipping-props.value_coupon).toLocaleString()}VND</td>
+                <td>{(props.value_total + shipping-props.value_coupon).toLocaleString()}VND</td>
               </tr>
             </tbody>
           </table>
