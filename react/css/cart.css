@@ -93,6 +93,10 @@ table tbody td.delete {
   font-size: 20px;
 }
 
+.total_area table td{
+  border: 1px solid grey;
+}
+
 @media (max-width: 1000px) {
   .total_area {
     display: block;
@@ -125,6 +129,8 @@ table tbody td.delete {
 
 .totals {
 }
+
+
 
 .totals-item {
   display: flex;

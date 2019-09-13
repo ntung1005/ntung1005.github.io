@@ -34,7 +34,17 @@ class Content extends React.Component {
         }
       ],
 
-      coupons: [123456, 45678]
+      coupons: [
+        {
+            code: 123456,
+            value: 300000
+        },
+        {
+            code: 'AUTUMN',
+            value: 10000000
+        }
+    ],
+    discount: 0
     };
   }
 
@@ -45,14 +55,14 @@ class Content extends React.Component {
     const newProducts = this.state.products;
 
     console.log(event.target.value);
-
+    newProducts.quantity = event.target.value;
     this.setState({
       products: newProducts
     });
   }
   //
 
-  // Tăng
+  // Giảm
   decreat(index) {
     const newProducts = this.state.products;
     if (newProducts[index].quantity > 1) newProducts[index].quantity--;
@@ -61,7 +71,7 @@ class Content extends React.Component {
       products: newProducts
     });
   }
-  // Giảm
+  // Tăng
   increat(index) {
     const newProducts = this.state.products;
 
@@ -82,11 +92,63 @@ class Content extends React.Component {
     });
   }
 
+
+
+
+
+
+
+
+
+
+
+
+  // Coupon
+  applyCoupon(a) {
+
+    const newCoupons = this.state.coupons;
+    
+    for(let i=0;i<newCoupons.length;i++){
+      if(this.state.value==newCoupons[i].code){
+        this.state.discount=newCoupons[i].value
+        console.log(this.state.discount)
+        
+      }
+      
+      
+      a.preventDefault();
+    }
+
+    this.setState({
+      coupons: newCoupons
+    });
+    
+  }
+
+  getValueInputCoupon(a) {
+    this.setState({ value: event.target.value });
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   render() {
     const products = this.state.products;
     let cartItems = [];
     let totalPrice = 0;
-    
 
     for (let i = 0; i < products.length; i++) {
       const product = products[i];
@@ -141,8 +203,8 @@ class Content extends React.Component {
               {/* Thay đổi giá trị ô input */}
               <input
                 value={product.quantity}
-                onChange={this.handleChange.bind(this, event)}
-                type="text"
+                onChange={() => this.handleChange(i, event)}
+                type="number"
                 name="num-product"
               />
 
@@ -167,7 +229,12 @@ class Content extends React.Component {
     }
 
     return (
+
+      
       <div className="main">
+
+        
+
         <h4>Giỏ Hàng</h4>
         {/* Cart */}
         <section>
@@ -195,12 +262,14 @@ class Content extends React.Component {
           </div>
         </section>
 
-
-
         {/* Total */}
 
-        <Total value={totalPrice}/>
-        
+        <Total
+          value={totalPrice}
+          applyCoupon={this.applyCoupon.bind(this)}
+          getValueInputCoupon={this.getValueInputCoupon.bind(this)}
+          value_coupon={this.state.discount}
+        />
       </div>
     );
   }
