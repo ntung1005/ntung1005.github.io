@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/build_quizz_reactjs/static/css/main.5e692ea6.chunk.css",
+    "main.js": "/build_quizz_reactjs/static/js/main.6dfc8677.chunk.js",
+    "main.js.map": "/build_quizz_reactjs/static/js/main.6dfc8677.chunk.js.map",
+    "runtime~main.js": "/build_quizz_reactjs/static/js/runtime~main.502dfdf7.js",
+    "runtime~main.js.map": "/build_quizz_reactjs/static/js/runtime~main.502dfdf7.js.map",
+    "static/js/2.67be95f2.chunk.js": "/build_quizz_reactjs/static/js/2.67be95f2.chunk.js",
+    "static/js/2.67be95f2.chunk.js.map": "/build_quizz_reactjs/static/js/2.67be95f2.chunk.js.map",
+    "index.html": "/build_quizz_reactjs/index.html",
+    "precache-manifest.3e7037df8c2eb3b0d25dd8c0d9e88556.js": "/build_quizz_reactjs/precache-manifest.3e7037df8c2eb3b0d25dd8c0d9e88556.js",
+    "service-worker.js": "/build_quizz_reactjs/service-worker.js",
+    "static/css/main.5e692ea6.chunk.css.map": "/build_quizz_reactjs/static/css/main.5e692ea6.chunk.css.map",
+    "static/media/logo.svg": "/build_quizz_reactjs/static/media/logo.5d5d9eef.svg"
+  }
+}
