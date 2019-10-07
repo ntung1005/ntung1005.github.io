@@ -1,5 +1,7 @@
 // Fix header
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {
+  myFunction();
+};
 
 let header = document.getElementById("header");
 let sticky = header.offsetTop;
@@ -11,7 +13,6 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
-
 
 // Header hamburger
 
@@ -83,16 +84,37 @@ let info_item = [
   }
 ];
 
+
+
+$( document ).ready(function () {
+  $(".blogBox").slice(0, 3).show();
+    if ($(".blogBox:hidden").length != 0) {
+      $("#loadMore").show();
+    }   
+    $("#loadMore").on('click', function (e) {
+      e.preventDefault();
+      $(".blogBox:hidden").slice(0,info_item.length).show();
+      if ($(".blogBox:hidden").length == 0) {
+        $("#loadMore").hide();
+      }
+    });
+  });
+
+
+
+
+
 let products = "";
-for (const element of info_item) {
-    products += `
-    <div class="col-md-4 col-sm-6">
+
+for (let i = 0; i < info_item.length; i++) {
+  products += `
+    <div class="col-md-4 col-sm-6 blogBox" style="display: none;">
     <div id="item">
-        <div class="img-item1"><img src="${element.src1}" alt=""></div>
-        <div class="img-item2"><img src="${element.src2}" alt=""></div>
+        <div class="img-item1"><img src="${info_item[i].src1}" alt=""></div>
+        <div class="img-item2"><img src="${info_item[i].src2}" alt=""></div>
         <div class="info-item">
-            <h6>${element.name}</h6>
-            <p>${element.new_price} VNĐ</p>
+            <h6>${info_item[i].name}</h6>
+            <p>${info_item[i].new_price} VNĐ</p>
         </div>
     </div>
 </div>
