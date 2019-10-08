@@ -82,8 +82,10 @@ for (let i = 0; i < info_item.length; i++) {
   products += `
       <div class="col-lg-4 col-md-6 blogBox">
       <div id="item">
+      <a href="single-product.html">
           <div class="img-item1"><img src="${info_item[i].src1}" alt=""></div>
           <div class="img-item2"><img src="${info_item[i].src2}" alt=""></div>
+          </a>
           <div class="info-item">
               <h6>${info_item[i].name}</h6>
               <p>${info_item[i].new_price} VNĐ</p>
