@@ -33,7 +33,7 @@
     color: #f9bdbd;
   }
   
-  ::placeholder {
+  .footer input::placeholder {
     color: #f9bdbd;
   }
   

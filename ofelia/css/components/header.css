@@ -71,7 +71,7 @@
 }
 
 .active-nav {
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid black;
 }
 
 .hamburger-bars i {
@@ -90,6 +90,14 @@
   }
 
   .icon-menu.menu-side li:nth-child(-n + 3) {
+    display: none;
+  }
+
+  .add-border-nav{
+    border: none;
+  }
+
+  .banner .btn-viewmore{
     display: none;
   }
 }
