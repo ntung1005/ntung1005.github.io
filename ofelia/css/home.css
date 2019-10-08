@@ -90,7 +90,7 @@
   bottom: 60px;
   left: 30px;
   color: white;
-  z-index: 100;
+  z-index: 4;
 }
 
 .banner-block:hover > .block-1,
