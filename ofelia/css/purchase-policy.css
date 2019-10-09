@@ -1,0 +1,23 @@
+.banner{
+    height: 80px;
+}
+
+img{
+    width: 100%;
+  }
+  
+
+.main{
+    padding: 80px 0;
+    
+}
+
+p{
+    
+}
+
+.main span{
+    text-decoration: underline;
+    text-indent: 100px;
+    font-style: italic;
+}
