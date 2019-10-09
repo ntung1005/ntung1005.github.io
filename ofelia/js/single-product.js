@@ -10,9 +10,11 @@ $(document).ready(function () {
             
         }
     });
-
-
-    $('.btn-evaluate').click(function(){
-        $(".evaluate-content").slideToggle();
-    })
 });
+
+
+
+
+$('.btn-evaluate').click(function(){
+    $(".evaluate-content").slideToggle();
+})
