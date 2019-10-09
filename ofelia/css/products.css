@@ -14,10 +14,11 @@ img{
 }
 
 .img-item2{
+    
     opacity: 0;
 }
 
-#item:hover>.img-item2{
+#item:hover>a .img-item2{
     opacity: 1;
     transition:all 0.5s ease;
 }
@@ -30,7 +31,9 @@ img{
 
 .info-item h6{
     color: #f9bdbd;
+    
 }
+
 
 
 
