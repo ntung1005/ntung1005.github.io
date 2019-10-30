@@ -1,0 +1,236 @@
+.banner {
+  height: 80px;
+}
+
+.main {
+  padding: 80px 0;
+}
+
+img {
+  width: 100%;
+}
+
+.filer-area {
+}
+
+.filer-area .filter-item {
+  border-top: 1px solid grey;
+
+  margin-bottom: 15px;
+}
+
+.filer-area .filter-item {
+}
+
+.filer-area .filter-item .name-filter-item {
+  position: relative;
+  width: 100%;
+  height: 50px;
+
+  margin: 5px 0;
+}
+
+.filer-area .filter-item .name-filter-item p {
+  line-height: 50px;
+}
+
+.filer-area .filter-item .name-filter-item span {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  line-height: 50px;
+}
+
+.content-filter-item {
+  width: 100%;
+  display: none;
+}
+
+/* Filter content */
+.content-filter-item label {
+}
+
+.content-filter-item input[type="checkbox"] {
+  display: none;
+  width: 20px;
+  height: 20px;
+}
+
+.content-filter-item span {
+  padding: 0 15px;
+  position: relative;
+}
+
+.content-filter-item span i {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  color: white;
+  display: none;
+}
+
+.content-filter-item span::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 1px solid rgba(128, 128, 128, 0.644);
+
+  border-radius: 3px;
+}
+
+.content-filter-item input[type="checkbox"]:checked ~ span::before {
+  background: rgba(255, 0, 0, 0.64);
+  border: 1px solid transparent;
+}
+
+.content-filter-item input[type="checkbox"]:checked ~ span i {
+  display: block;
+}
+
+/* Filter size */
+
+.content-filter-size label {
+  padding: 10px 5px;
+}
+
+.content-filter-size input[type="checkbox"] {
+  display: none;
+}
+
+.content-filter-size span {
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.562);
+}
+
+.content-filter-size input[type="checkbox"]:checked ~ span {
+  background: rgba(255, 0, 0, 0.64);
+  color: white;
+  border: 1px solid transparent;
+}
+
+/* Price */
+.content-filter-price {
+}
+
+.content-filter-price input {
+  width: 100%;
+  height: 40px;
+  margin: 5px 0;
+  padding: 0 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.527);
+}
+
+.content-filter-price input:focus {
+  border: 1px solid black;
+}
+
+.content-filter-price button {
+  padding: 7px 30px;
+  background: rgba(255, 0, 0, 0.74);
+  border: 1px solid rgba(255, 0, 0, 0.74);
+  border-radius: 5px;
+  color: white;
+}
+
+.content-filter-price button:hover {
+  background: rgba(255, 0, 0, 0.54);
+}
+
+
+
+
+/* Sorting */
+
+
+
+.selectdiv {
+  position: relative;
+  width: 320px;
+  
+}
+
+
+
+.selectdiv:after {
+  content: '<>';
+  font: 17px "Consolas", monospace;
+  color: #333;
+  transform: rotate(90deg);
+  right: 11px;
+  top: 18px;
+  padding: 0 0 2px;
+  border-bottom: 1px solid #999;
+  position: absolute;
+  pointer-events: none;
+}
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+
+
+/* .selectdiv select option:checked {
+  background: rgba(255, 0, 0, 0.64);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Phân Trang */
+
+#page_navigation{
+  padding-top: 50px;
+  text-align: center;
+}
+
+#page_navigation a{
+  padding:10px 15px;
+  border:1px solid gray;
+  margin:2px;
+  color:black;
+  text-decoration:none
+}
+#page_navigation a:hover{background:#ccc;}
+.active_page{
+  background:#555;
+  color:white !important;
+}
