@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Colo Shop</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Colo Shop Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="../styles/bootstrap4/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link href="../plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="../styles/components/header.css">
+    <link rel="stylesheet" href="../styles/components/footer.css">
+    <link rel="stylesheet" href="../styles/components/products.css">
+    <link rel="stylesheet" href="../styles/checkout.css">
+
+</head>
+
+<body>
+
+
+
+    <!-- Header -->
+
+    <header class="header trans_300">
+
+        <!-- Top Navigation -->
+
+        <div class="top_nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="top_nav_left">free shipping on all u.s orders over $50</div>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <div class="top_nav_right">
+                            <ul class="top_nav_menu">
+
+                                <!-- Currency / Language / My Account -->
+
+                                <li class="account">
+                                    <a href="#">
+                                        My Account
+                                        <i class="fa fa-angle-down"></i>
+                                    </a>
+                                    <ul class="account_selection">
+                                        <li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
+                                        <li><a href="register.html"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Navigation -->
+
+        <div class="main_nav_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-right">
+                        <div class="logo_container">
+                            <a href="#">Max<span>Store</span></a>
+                        </div>
+                        <nav class="navbar">
+                            <ul class="navbar_menu">
+                                <li><a href="../index.html">home</a></li>
+                                <li><a href="shop.html">shop</a></li>
+
+                                <li><a href="blog.html">blog</a></li>
+                                <li><a href="contact.html">contact</a></li>
+                            </ul>
+                            <ul class="navbar_user">
+                                <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <li><a href="login.html"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                                <li class="checkout">
+                                    <a href="cart.html">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        <span id="checkout_items" class="checkout_items">2</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="hamburger_container">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="hamburger_menu">
+        <div class="hamburger_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+        <div class="hamburger_menu_content text-right">
+            <ul class="menu_top_nav">
+                <li class="menu_item has-children">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="menu_item has-children">
+                    <a href="shop.html">Shop</a>
+                </li>
+                <li class="menu_item"><a href="blog.html">Blog</a></li>
+                <li class="menu_item"><a href="cart.html">cart</a></li>
+                <li class="menu_item has-children">
+                    <a href="#">
+                        My Account
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="menu_selection">
+                        <li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
+                        <li><a href="register.html"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--  -->
+
+    <div class="xxx"></div>
+
+    <!--  -->
+    <!-- Breadcrumb -->
+    <div class="container">
+        <div class="breadcumb">
+            <p> Trang Chủ / <span>Thanh Toán</span></p>
+        </div>
+    </div>
+
+    <!--  -->
+
+
+    <!-- Main -->
+    <div class="main">
+        <div class="container">
+
+            <div class="site-section">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md-12">
+                            <div class="border p-4 rounded" role="alert">
+                                Returning customer? <a href="../pages/accout.html">Click here</a> to login
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-5 mb-md-0">
+                            <h2 class="h5 mb-3 text-black">Billing Details</h2>
+                            <div class="p-3 p-lg-5 border">
+                                <div>
+                                    <label for="c_country" class="text-black">Country <span
+                                            class="text-danger">*</span></label>
+                                    <select id="c_country" class="form-control">
+                                        <option value="1">Select a country</option>
+                                        <option value="2">bangladesh</option>
+                                        <option value="3">Algeria</option>
+                                        <option value="4">Afghanistan</option>
+                                        <option value="5">Ghana</option>
+                                        <option value="6">Albania</option>
+                                        <option value="7">Bahrain</option>
+                                        <option value="8">Colombia</option>
+                                        <option value="9">Dominican Republic</option>
+                                    </select>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-6">
+                                        <label for="c_fname" class="text-black">First Name <span
+                                                class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="c_fname" name="c_fname">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="c_lname" class="text-black">Last Name <span
+                                                class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="c_lname" name="c_lname">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-12">
+                                        <label for="c_companyname" class="text-black">Company Name </label>
+                                        <input type="text" class="form-control" id="c_companyname" name="c_companyname">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-12">
+                                        <label for="c_address" class="text-black">Address <span
+                                                class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="c_address" name="c_address"
+                                            placeholder="Street address">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <input type="text" class="form-control"
+                                        placeholder="Apartment, suite, unit etc. (optional)">
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-6">
+                                        <label for="c_state_country" class="text-black">State / Country <span
+                                                class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="c_state_country"
+                                            name="c_state_country">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="c_postal_zip" class="text-black">Posta / Zip <span
+                                                class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="c_postal_zip" name="c_postal_zip">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row mb-5">
+                                    <div class="col-md-6">
+                                        <label for="c_email_address" class="text-black">Email Address <span
+                                                class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="c_email_address"
+                                            name="c_email_address">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="c_phone" class="text-black">Phone <span
+                                                class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="c_phone" name="c_phone"
+                                            placeholder="Phone Number">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label for="c_create_account" class="text-black" data-toggle="collapse"
+                                        href="#create_an_account" role="button" aria-expanded="false"
+                                        aria-controls="create_an_account"><input type="checkbox" value="1"
+                                            id="c_create_account"> Create an account?</label>
+                                    <div class="collapse" id="create_an_account">
+                                        <div class="py-2">
+                                            <p class="mb-3">Create an account by entering the information below. If you
+                                                are
+                                                a returning customer please login at the top of the page.</p>
+                                            <div>
+                                                <label for="c_account_password" class="text-black">Account
+                                                    Password</label>
+                                                <input type="email" class="form-control" id="c_account_password"
+                                                    name="c_account_password" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <label for="c_ship_different_address" class="text-black" data-toggle="collapse"
+                                        href="#ship_different_address" role="button" aria-expanded="false"
+                                        aria-controls="ship_different_address"><input type="checkbox" value="1"
+                                            id="c_ship_different_address"> Ship To A Different Address?</label>
+                                    <div class="collapse" id="ship_different_address">
+                                        <div class="py-2">
+
+                                            <div>
+                                                <label for="c_diff_country" class="text-black">Country <span
+                                                        class="text-danger">*</span></label>
+                                                <select id="c_diff_country" class="form-control">
+                                                    <option value="1">Select a country</option>
+                                                    <option value="2">bangladesh</option>
+                                                    <option value="3">Algeria</option>
+                                                    <option value="4">Afghanistan</option>
+                                                    <option value="5">Ghana</option>
+                                                    <option value="6">Albania</option>
+                                                    <option value="7">Bahrain</option>
+                                                    <option value="8">Colombia</option>
+                                                    <option value="9">Dominican Republic</option>
+                                                </select>
+                                            </div>
+
+
+                                            <div class="form-group row">
+                                                <div class="col-md-6">
+                                                    <label for="c_diff_fname" class="text-black">First Name <span
+                                                            class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" id="c_diff_fname"
+                                                        name="c_diff_fname">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="c_diff_lname" class="text-black">Last Name <span
+                                                            class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" id="c_diff_lname"
+                                                        name="c_diff_lname">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <div class="col-md-12">
+                                                    <label for="c_diff_companyname" class="text-black">Company Name
+                                                    </label>
+                                                    <input type="text" class="form-control" id="c_diff_companyname"
+                                                        name="c_diff_companyname">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <div class="col-md-12">
+                                                    <label for="c_diff_address" class="text-black">Address <span
+                                                            class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" id="c_diff_address"
+                                                        name="c_diff_address" placeholder="Street address">
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <input type="text" class="form-control"
+                                                    placeholder="Apartment, suite, unit etc. (optional)">
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <div class="col-md-6">
+                                                    <label for="c_diff_state_country" class="text-black">State / Country
+                                                        <span class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" id="c_diff_state_country"
+                                                        name="c_diff_state_country">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="c_diff_postal_zip" class="text-black">Posta / Zip <span
+                                                            class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" id="c_diff_postal_zip"
+                                                        name="c_diff_postal_zip">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row mb-5">
+                                                <div class="col-md-6">
+                                                    <label for="c_diff_email_address" class="text-black">Email Address
+                                                        <span class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" id="c_diff_email_address"
+                                                        name="c_diff_email_address">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="c_diff_phone" class="text-black">Phone <span
+                                                            class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" id="c_diff_phone"
+                                                        name="c_diff_phone" placeholder="Phone Number">
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label for="c_order_notes" class="text-black">Order Notes</label>
+                                    <textarea name="c_order_notes" id="c_order_notes" cols="30" rows="5"
+                                        class="form-control" placeholder="Write your notes here..."></textarea>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="row mb-5">
+                                <div class="col-md-12">
+                                    <h2 class="h5 mb-3 text-black">Coupon Code</h2>
+                                    <div class="p-3 p-lg-5 border">
+
+                                        <label for="c_code" class="text-black mb-3">Enter your coupon code if you have
+                                            one</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="c_code"
+                                                placeholder="Coupon Code" aria-label="Coupon Code"
+                                                aria-describedby="button-addon2">
+                                            <div class="input-group-append">
+                                                <button class="btn-page-checkout" type="button">Apply</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-5">
+                                <div class="col-md-12">
+                                    <h2 class="h5 mb-3 text-black">Your Order</h2>
+                                    <div class="p-3 p-lg-5 border">
+                                        <table class="table site-block-order-table mb-5">
+                                            <thead>
+                                                <th>Product</th>
+                                                <th>Total</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Top Up T-Shirt <strong class="mx-2">x</strong> 1</td>
+                                                    <td>$250.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Polo Shirt <strong class="mx-2">x</strong> 1</td>
+                                                    <td>$100.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-black font-weight-bold"><strong>Cart
+                                                            Subtotal</strong>
+                                                    </td>
+                                                    <td class="text-black">$350.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-black font-weight-bold"><strong>Order Total</strong>
+                                                    </td>
+                                                    <td class="text-black font-weight-bold"><strong>$350.00</strong>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <div class="border p-3 mb-3">
+                                            <h5 class="h6 mb-0"><a class="d-block" data-toggle="collapse"
+                                                    href="#collapsebank" role="button" aria-expanded="false"
+                                                    aria-controls="collapsebank">Direct Bank Transfer</a></h5>
+
+                                            <div class="collapse" id="collapsebank">
+                                                <div class="py-2">
+                                                    <p class="mb-0">Make your payment directly into our bank account.
+                                                        Please
+                                                        use your Order ID as the payment reference. Your order won’t be
+                                                        shipped until the funds have cleared in our account.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="border p-3 mb-3">
+                                            <h5 class="h6 mb-0"><a class="d-block" data-toggle="collapse"
+                                                    href="#collapsecheque" role="button" aria-expanded="false"
+                                                    aria-controls="collapsecheque">Cheque Payment</a></h5>
+
+                                            <div class="collapse" id="collapsecheque">
+                                                <div class="py-2">
+                                                    <p class="mb-0">Make your payment directly into our bank account.
+                                                        Please
+                                                        use your Order ID as the payment reference. Your order won’t be
+                                                        shipped until the funds have cleared in our account.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="border p-3 mb-5">
+                                            <h5 class="h6 mb-0"><a class="d-block" data-toggle="collapse"
+                                                    href="#collapsepaypal" role="button" aria-expanded="false"
+                                                    aria-controls="collapsepaypal">Paypal</a></h5>
+
+                                            <div class="collapse" id="collapsepaypal">
+                                                <div class="py-2">
+                                                    <p class="mb-0">Make your payment directly into our bank account.
+                                                        Please
+                                                        use your Order ID as the payment reference. Your order won’t be
+                                                        shipped until the funds have cleared in our account.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <button class="btn-page-checkout">Place Order</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- </form> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--  -->
+
+
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-6 col-md-3 col-xs-12 clear-sm">
+                        <div class="widget-wrapper animated">
+
+                            <h5 class="title title_left">Giới thiệu</h5>
+
+                            <div class="inner about_us">
+
+                                <p class="message">FindShoes cam kết, tất cả loại gày Sneakers được bán trực
+                                    tiếp tại hệ thống các cửa hàng của chúng tôi và bán Online
+                                    đều là hàng chính hãng 100%</p>
+
+                                <ul class="list-unstyled">
+
+                                    <li>
+                                        <i class="fa fa-home"></i>Hà Đông, Hà Nội
+                                    </li>
+
+
+                                    <li>
+                                        <i class="fa fa-envelope-o"></i> <a href="#">ntung7965@gmail.com</a>
+                                    </li>
+
+
+                                    <li>
+                                        <i class="fa fa-phone"></i> 0978.032.402
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-6 col-md-2 col-xs-12 clear-sm">
+                        <div class="widget-wrapper animated">
+
+                            <h5 class="title title_left">Liên kết</h5>
+
+                            <div class="inner">
+
+                                <ul class="list-unstyled list-styled">
+
+                                    <li>
+                                        <a href="../index.html">Trang chủ</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="shop.html">Shop</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="blog.html">Blog</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="contact.html">Liên Hệ</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="cart.html">Giỏ Hàng</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-6 col-md-3 col-xs-12 clear-sm">
+                        <div class="widget-wrapper animated">
+
+
+                            <h5 class="title title_left">Đăng kí nhận tin</h5>
+
+                            <div class="inner">
+
+
+                                <form accept-charset='UTF-8' action='/account/contact' class='contact-form'
+                                    method='post'>
+                                    <input name='form_type' type='hidden' value='customer'>
+                                    <input name='utf8' type='hidden' value='✓'>
+
+                                    <div class="group-input">
+                                        <input type="hidden" id="contact_tags" name="contact[tags]"
+                                            value="khách hàng tiềm năng, bản tin" />
+                                        <input type="email" required="required" name="contact[email]"
+                                            id="contact_email" />
+                                        <span class="bar"></span>
+                                        <label>Nhập email của bạn</label>
+                                        <button type="submit"><i class="fa fa-paper-plane-o"></i></button>
+                                    </div>
+
+
+
+
+
+                                </form>
+
+
+                                <div class="caption">Hãy nhập email của bạn vào đây để nhận tin!</div>
+
+                            </div>
+
+
+
+
+                            <div id="widget-social" class="social-icons">
+                                <ul class="list-inline">
+
+                                    <li>
+                                        <a target="_blank" href="/" class="social-wrapper facebook">
+                                            <span class="social-icon">
+                                                <i class="fa fa-facebook"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a target="_blank" href="/" class="social-wrapper twitter">
+                                            <span class="social-icon">
+                                                <i class="fa fa-twitter"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a target="_blank" href="/" class="social-wrapper pinterest">
+                                            <span class="social-icon">
+                                                <i class="fa fa-pinterest"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a target="_blank" href="/" class="social-wrapper google">
+                                            <span class="social-icon">
+                                                <i class="fa fa-google-plus"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a target="_blank" href="/" class="social-wrapper youtube">
+                                            <span class="social-icon">
+                                                <i class="fa fa-youtube"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a target="_blank" href="/" class="social-wrapper instagram">
+                                            <span class="social-icon">
+                                                <i class="fa fa-instagram"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-6 col-md-4 col-xs-12 clear-sm">
+                        <div class="widget-wrapper animated">
+
+                            <h5 class="title title_left">Kết nối với chúng tôi</h5>
+
+                            <div className="inner">
+                                <!-- {/* Facebook widget */} -->
+                                <div id="fb-root"></div>
+                                <script async defer crossorigin="anonymous"
+                                    src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3"></script>
+
+                                <div class="fb-page"
+                                    data-href="https://www.facebook.com/DemoProject-2585801611438970/?modal=admin_todo_tour"
+                                    data-tabs="timeline" data-width="300px" data-height="300px"
+                                    data-small-header="false" data-adapt-container-width="false" data-hide-cover="false"
+                                    data-show-facepile="false">
+                                    <blockquote
+                                        cite="https://www.facebook.com/DemoProject-2585801611438970/?modal=admin_todo_tour"
+                                        class="fb-xfbml-parse-ignore">
+                                        <a
+                                            href="https://www.facebook.com/DemoProject-2585801611438970/?modal=admin_todo_tour">
+                                            DemoProject
+                                        </a>
+                                    </blockquote>
+                                </div>
+
+                                <!-- {/* #Facebook widget */} -->
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <div class="container copyright">
+                <p>Copyright &copy; 2019 MaxStore. <a target='_blank' href='#'>NguyenVanTung</a>.</p>
+
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+
+    <script src="styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <script src="../js/header.js"></script>
+
+
+</body>
+
+</html>
