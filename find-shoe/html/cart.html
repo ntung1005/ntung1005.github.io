@@ -244,93 +244,86 @@
     </div>
 
 
-    <div id="main" class="container">
-        <div id="main_1">
-            <p>Giỏ Hàng Của Bạn</p>
+    <!-- Main -->
+    <div class="main container">
+        <div class="container">
+            <h5>Giỏ Hàng</h5>
 
-            <div>
+            <div class="table-products">
                 <table>
                     <thead>
                         <tr>
-                            <th>Sản Phẩm</th>
-                            <th></th>
-                            <th>Giá</th>
-                            <th>Số Lượng</th>
-                            <th>Tổng</th>
-
+                            <th class="image">
+                                <h6>Sản Phẩm</h6>
+                            </th>
+                            <th class="item-info"></th>
+                            <th class="color-item">
+                                <h6>Màu Sắc</h6>
+                            </th>
+                            <th class="quantity">
+                                <h6>Số Lượng</h6>
+                            </th>
+                            <th class="price">
+                                <h6>Giá</h6>
+                            </th>
+                            <th class="remove"></th>
                         </tr>
                     </thead>
+
                     <tbody>
                         <tr>
-                            <td><img src="../img/sản phẩm 1.jpg" alt=""></td>
-                            <td>Giày Thể Thao Size 39</td>
+                            <td class="image"><img src="../img/sản phẩm 1.jpg" alt=""></td>
+                            <td class="item-info">
+                                <p> Modern Gel Eyeliner</p>
+                            </td>
+                            <td class="color-item">
+                                <p> Jet Black</p>
+                            </td>
+                            <td class="quantity"><input type="number" value="1"></td>
+                            <td class="price"> 239,000₫</td>
+                            <td class="remove">Xóa</td>
+                        </tr>
 
-                            <td>500.000đ</td>
-                            <td><input type="number" value="1" min="1" style="max-width:80px"> <input type="button"
-                                    name="" id="" value="Xóa"></td>
-                            <td>500.000đ</td>
-
+                        <tr class="summary">
+                            <td colspan="4"></td>
+                            <td colspan="2">Total :<b> 239,000₫</b> </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
 
 
-
-        </div>
-        <form action="">
-            <div id="main_2" class="row">
-                <div class="col-md-6">
-                    <h4>Thông Tin Khách Hàng</h4>
-                    <div id="main_2_2">
-                        <span>Họ Và Tên(*)</span>
-                        <input type="text" required>
-
-                        <span>Số Điện Thoại(*)</span>
-                        <input type="text" required>
-
-                        <span>Địa Chỉ Nhận Hàng(*)</span>
-                        <input type="text" required>
-                    </div>
-
-                </div>
-                <div class="col-md-6">
-                    <h4>Mã Giảm Giá</h4>
-                    <div id="main_2_2">
-                        <span>Mã Giảm Giá(nếu có)</span>
-                        <input type="text">
-                    </div>
-                </div>
-
-            </div>
-
-            <div id="main_3">
-                <button>Tiến Hành Thanh Toán</button>
-                <button type="submit"><a href="../index.html"> Tiếp Tục Mua Hàng</a></button>
-            </div>
-        </form>
-
-        <div id="carousel">
-            <h3>Sản Phẩm Nổi Bật</h3>
-            <br>
-            <div class="container">
+            <div class="checkout">
                 <div class="row">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item"><img src="../img/sản phẩm 1.jpg" alt=""></div>
-                        <div class="item"><img src="../img/sản phẩm 2.jpg" alt=""></div>
-                        <div class="item"><img src="../img/sản phẩm 3.jpg" alt=""></div>
-                        <div class="item"><img src="../img/sản phẩm 4.jpg" alt=""></div>
-                        <div class="item"><img src="../img/sản phẩm 5.jpg" alt=""></div>
-                        <div class="item"><img src="../img/sản phẩm 6.jpg" alt=""></div>
-                        <div class="item"><img src="../img/sản phẩm 7.jpg" alt=""></div>
-                        <div class="item"><img src="../img/sản phẩm 8.jpg" alt=""></div>
+                    <div class="col-md-6">
+                        <div class="coupon-area">
+                            <form action="">
+                                <input type="text" placeholder="Coupon">
+                                <button type="submit">Xác nhận</button>
+                            </form>
+                        </div>
 
+                        <div class="attention">
+                            <label for="">
+                                <span>Ghi chú</span><br />
+                                <textarea name="" id="" cols="40" rows="5"></textarea>
+                            </label>
+                        </div>
 
+                    </div>
+                    <div class="col-md-6">
+                        <div class="confirm-area">
+                            <a href="../index.html"><button class="btn-go-home">Tiếp tục mua hàng</button></a>
+                            <a href="checkout.html"><button class="btn-checkout">Thanh Toán</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <!--  -->
 
 
 

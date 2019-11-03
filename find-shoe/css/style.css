@@ -20,6 +20,10 @@ body {
     margin-left: 0px;
 }
 
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
 
 
 /* Header */
@@ -318,6 +322,7 @@ li {
 
 #header_responsive #logo_responsive img {
     height: 100%;
+    width:unset;
 }
 
 
