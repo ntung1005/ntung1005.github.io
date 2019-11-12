@@ -63,6 +63,24 @@
     z-index: 3;
     border-radius: 50px;
 }
+
+.product-image .product-new-label{
+    content: "";
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0.589);
+    font-size: 12px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 7px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 3;
+    border-radius: 50px;
+}
+
 .product-image .product-discount-label{
     background-color: var(--main-color);
     left: auto;
