@@ -73,7 +73,7 @@ for (let i = 0; i < item.length; i++) {
         <div class="col-lg-4 col-md-6 blogBox" style="display: none;">
         <div class="product-grid">
 					<div class="product-image">
-						<a href="#">
+						<a href="product-detail.html">
 							<img class="pic-1" src="${item[i].src1}">
 							<img class="pic-2" src="${item[i].src2}">
 						</a>
@@ -86,7 +86,7 @@ for (let i = 0; i < item.length; i++) {
 						</ul>
 					</div>
 					<div class="product-content">
-						<h3 class="title"><a href="#">${item[i].name}</a></h3>
+						<h3 class="title"><a href="product-detail.html">${item[i].name}</a></h3>
 						<div class="price">$${item[i].price}</div>
 					</div>
 				</div>
